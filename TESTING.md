@@ -52,7 +52,7 @@ Pre-ML ceiling: 120 DCC, which is 2.4% of the grant. The other 4,880 DCC stays u
 | Step | What it proves | Price | Ceiling | Pass |
 | --- | --- | --- | --- | --- |
 | Local regression | The script still joins four slices | `localExec`, price 0 | 0 DCC | `HELLO WORLD FROM DISTRIBUTIVE` |
-| Public smoke | A remote worker can do the same job | `job.exec(1)` on 4 slices. If no worker accepts it, cancel and retry at 5, then 10 | 4, then 20, then 40 DCC | Same string, plus the balance change |
+| Public smoke | A remote worker can do the same job | `node capitalize.js remote`, which calls `job.exec(1)` on 4 slices. If no worker accepts it, cancel and retry at 5, then 10 | 4, then 20, then 40 DCC | Same string, plus the balance change |
 | Two laptops | Our own machines can take slices and return them in order | The offer that succeeded above | At most 40 DCC | Same string. Note which machine completed each slice |
 | Input-set data | A small dataset can travel inside the job | Same offer, still 4 slices | At most 40 DCC | A short summary comes back, and the balance change is recorded |
 
