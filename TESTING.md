@@ -1,8 +1,8 @@
 # QMIND Distributive testing
 
 Account: cnathaniel168@gmail.com
-Balance: 4,996 DCC
-Spent: 4 DCC
+Balance: 4,992 DCC
+Spent: 8 DCC
 Repository: https://github.com/NathanielCheung/QMIND-Distributive-Testing
 
 ## What already works
@@ -42,6 +42,23 @@ Final result: HELLO WORLD FROM DISTRIBUTIVE
 
 The portal balance was 5,000.000 DCC before the job and 4,996 DCC after it. The charge was 4 DCC, which is the full offer: 1 DCC for each slice. A public worker completed the job at that price, so the offer does not need to be raised for this workload.
 
+## Second computer on 5 November 2026
+
+The Windows worker was installed on a second laptop from https://download.distributive.network/windows/latest/dcp-worker/. The Compute Groups tab was left untouched, so the worker stayed in the global group. The settings were saved and the screensaver preview was started. On the first laptop, `node capitalize.js remote` was run again.
+
+The scheduler accepted the job as `KgVfxFgvHQDWg8t3Q6Z8Ic`. The payment address was again `0x8F0c...Bfcc`. Slices came back in this order:
+
+| Arrival | Slice | Result |
+| --- | --- | --- |
+| 1 | 1 | `HELLO ` |
+| 2 | 4 | `DISTRIBUTIVE` |
+| 3 | 2 | `WORLD ` |
+| 4 | 3 | `FROM ` |
+
+The script sorted them and printed `HELLO WORLD FROM DISTRIBUTIVE`. The balance went from 4,996 DCC to 4,992 DCC. That is another 4 DCC, and none of it returned to the account. The other laptop therefore did not earn the payment. A public worker did this job too. The second-computer test is still open: the next run has to use a private compute group so only our worker can take the slices.
+
+The screensaver preview is a grey full-screen page. Ctrl+Alt+Delete leaves it. The screensaver was then set to (None). The service was stopped from an administrator Command Prompt with `net stop "DCP Worker"`.
+
 ## What we had to fix
 
 The first local runs deployed a job and then waited forever. The bundled local worker asks for slices with the null payment address, `0x000…0`, and the scheduler does not assign work to that address. `capitalize.js` now sets the worker payment address to the current identity before the worker starts, and it gives each run a new `localExec_` worker id so an interrupted run cannot leave an id that receives no slices.
@@ -64,15 +81,16 @@ Slices are assigned by the scheduler. There is no manual assignment step in the 
 
 `job.exec()` with no price uses `compute.marketValue`, and that offer has no per-slice ceiling. Every paid test in this project passes a numeric DCC amount. The most that job can cost is the number of slices multiplied by that amount. Source: [Job.exec](https://docs.dcp.dev/api/compute/classes/job.html) and [Compute API](https://docs.dcp.dev/specs/compute-api.html). Pricing background: [Compute Economics](https://distributive.network/docs/compute-economics.html).
 
-The measured price for this workload is 1 DCC per slice. The 4 November remote job cost 4 DCC, and 4,996 DCC remains. Paid tests use the portal identity for `cnathaniel168@gmail.com`. The temporary identity that passed local execution has no credits.
+The measured price for this workload is 1 DCC per slice. Two public jobs have cost 4 DCC each, and 4,992 DCC remains. Paid tests use the portal identity for `cnathaniel168@gmail.com`. The temporary identity that passed local execution has no credits.
 
-The pre-ML envelope is still 120 DCC. This test used 4 DCC of it, so 116 DCC remains inside that envelope. The other 4,880 DCC stays unused. Another four-slice job at this same offer costs 4 DCC.
+The pre-ML envelope is still 120 DCC. These jobs used 8 DCC of it, so 112 DCC remains inside that envelope. The other 4,880 DCC stays unused. Another four-slice job at this same offer costs 4 DCC.
 
 | Step | What it proves | Price | Result |
 | --- | --- | --- | --- |
 | Local regression | The script still joins four slices | `localExec`, price 0 | Passed on 4 November 2026. Cost 0 DCC |
 | Public smoke | A remote worker can do the same job | `node capitalize.js remote`, `job.exec(1)`, 4 slices | Passed on 4 November 2026. Job `bA4j2urO6fDrzxoikaVJDp`. Cost 4 DCC |
-| Two laptops | Our own machines can take slices and return them in order | 1 DCC per slice | Not run. Expected cost 4 DCC for four slices |
+| Second computer, public group | Our own laptop takes the slices | 1 DCC per slice | Job `KgVfxFgvHQDWg8t3Q6Z8Ic` passed on 5 November 2026 and cost 4 DCC. The payment did not return, so a public worker did the job |
+| Second computer, private group | Only our laptop can take the slices | 1 DCC per slice | Not run. Expected cost 4 DCC, returned if our worker earns it |
 | Input-set data | A small dataset can travel inside the job | 1 DCC per slice, four slices | Not run. Expected cost 4 DCC |
 
-Federated learning waits until the laptop test and the input-set test have been run at this measured price. The first learning round, when it happens, uses a tiny model, a few slices, and a numeric offer. It scales only after that round's cost is known.
+Federated learning waits until the private-group laptop test and the input-set test have been run at this measured price. The first learning round, when it happens, uses a tiny model, a few slices, and a numeric offer. It scales only after that round's cost is known.
