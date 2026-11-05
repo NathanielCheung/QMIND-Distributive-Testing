@@ -1,0 +1,175 @@
+{
+  "startedAt": "2026-11-05T17:13:48.215Z",
+  "mode": "remote",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "offerDCCPerSlice": 1,
+  "offerCeilingDCC": 4,
+  "events": [
+    {
+      "event": "result",
+      "data": {
+        "job": "4Vd3z4IgQKWc3d8MjVcVZW",
+        "sliceNumber": 1,
+        "result": {
+          "client": 0,
+          "sandboxToken": "daec6204cff1a6c87fe428d5a9807033",
+          "call": 1,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 189,
+          "initializedMs": 199,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "4Vd3z4IgQKWc3d8MjVcVZW",
+        "sliceNumber": 4,
+        "result": {
+          "client": 3,
+          "sandboxToken": "8695d1ab86cf85ff50469ea0fd272657",
+          "call": 1,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 181,
+          "initializedMs": 190,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "4Vd3z4IgQKWc3d8MjVcVZW",
+        "sliceNumber": 2,
+        "result": {
+          "client": 1,
+          "sandboxToken": "4511f6c3fc2df4d434fa3ef45ef436c3",
+          "call": 1,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 76,
+          "initializedMs": 81,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "status",
+      "data": {
+        "runStatus": "finished",
+        "total": 4,
+        "distributed": 4,
+        "computed": 4,
+        "job": "4Vd3z4IgQKWc3d8MjVcVZW"
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "4Vd3z4IgQKWc3d8MjVcVZW",
+        "sliceNumber": 3,
+        "result": {
+          "client": 2,
+          "sandboxToken": "4f0b56bc93775b4bb12a42d9e0a98d76",
+          "call": 1,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 81,
+          "initializedMs": 86,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "client": 0,
+      "sandboxToken": "daec6204cff1a6c87fe428d5a9807033",
+      "call": 1,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 189,
+      "initializedMs": 199,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 1,
+      "sandboxToken": "4511f6c3fc2df4d434fa3ef45ef436c3",
+      "call": 1,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 76,
+      "initializedMs": 81,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 2,
+      "sandboxToken": "4f0b56bc93775b4bb12a42d9e0a98d76",
+      "call": 1,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 81,
+      "initializedMs": 86,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 3,
+      "sandboxToken": "8695d1ab86cf85ff50469ea0fd272657",
+      "call": 1,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 181,
+      "initializedMs": 190,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    }
+  ],
+  "jobId": "4Vd3z4IgQKWc3d8MjVcVZW",
+  "wallMs": 21233.053399999997,
+  "passed": true,
+  "finishedAt": "2026-11-05T17:14:10.483Z"
+}

@@ -1,0 +1,188 @@
+{
+  "startedAt": "2026-11-05T17:04:38.779Z",
+  "mode": "local",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "cacheEvents": [
+    {
+      "type": "cache-miss",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "8LxGkYtlrSIh5xIszKo5Gf",
+      "at": "2026-11-05T17:05:53.887Z"
+    },
+    {
+      "type": "fetch-completed",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "8LxGkYtlrSIh5xIszKo5Gf",
+      "elapsedMs": 954.2459999999992,
+      "files": [
+        {
+          "name": "tfjs-wasm.js",
+          "bytes": 2943254,
+          "sha256": "f8b21807c9452d992ce4c9ff65d7d8bde8007b3293b6ccdf8fdb385e480f803d"
+        }
+      ],
+      "success": true
+    }
+  ],
+  "events": [
+    {
+      "event": "result",
+      "data": {
+        "job": "8LxGkYtlrSIh5xIszKo5Gf",
+        "sliceNumber": 1,
+        "result": {
+          "client": 0,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 121.48570000000473,
+          "secondRequireMs": 0.03350000000500586,
+          "initializedMs": 128.76929999999993,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "8LxGkYtlrSIh5xIszKo5Gf",
+        "sliceNumber": 2,
+        "result": {
+          "client": 1,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.046600000001490116,
+          "secondRequireMs": 0.007199999992735684,
+          "initializedMs": 1.023300000000745,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "8LxGkYtlrSIh5xIszKo5Gf",
+        "sliceNumber": 3,
+        "result": {
+          "client": 2,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.018599999995785765,
+          "secondRequireMs": 0.008600000001024455,
+          "initializedMs": 0.46450000000186265,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "status",
+      "data": {
+        "runStatus": "finished",
+        "total": 4,
+        "distributed": 4,
+        "computed": 4,
+        "job": "8LxGkYtlrSIh5xIszKo5Gf"
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "8LxGkYtlrSIh5xIszKo5Gf",
+        "sliceNumber": 4,
+        "result": {
+          "client": 3,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.03910000000905711,
+          "secondRequireMs": 0.013399999996181577,
+          "initializedMs": 0.531200000012177,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "client": 0,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 121.48570000000473,
+      "secondRequireMs": 0.03350000000500586,
+      "initializedMs": 128.76929999999993,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 1,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.046600000001490116,
+      "secondRequireMs": 0.007199999992735684,
+      "initializedMs": 1.023300000000745,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 2,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.018599999995785765,
+      "secondRequireMs": 0.008600000001024455,
+      "initializedMs": 0.46450000000186265,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 3,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.03910000000905711,
+      "secondRequireMs": 0.013399999996181577,
+      "initializedMs": 0.531200000012177,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    }
+  ],
+  "jobId": "8LxGkYtlrSIh5xIszKo5Gf",
+  "instrumented": true,
+  "wallMs": 77044.4314,
+  "passed": true,
+  "finishedAt": "2026-11-05T17:05:56.966Z"
+}

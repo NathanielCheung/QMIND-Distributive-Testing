@@ -1,0 +1,252 @@
+{
+  "startedAt": "2026-11-05T17:13:25.578Z",
+  "mode": "local",
+  "scenario": "deny",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "cores": 1,
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "cacheEvents": [
+    {
+      "type": "cache-miss",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:13:40.748Z"
+    },
+    {
+      "type": "fetch-failed",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "elapsedMs": 86116.78989999999,
+      "message": "Could not connect to https://packages.distributed.computer/ within 60s"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:15:09.402Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:15:19.475Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:15:29.411Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:15:39.479Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:15:49.455Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:15:59.451Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:16:00.092Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:16:09.511Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:16:19.449Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:16:29.494Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:16:39.494Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:16:49.485Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:16:59.513Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:17:09.583Z"
+    },
+    {
+      "type": "cache-hit",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "U5LcLRBenc27QfJAmAOLAB",
+      "at": "2026-11-05T17:17:19.503Z"
+    }
+  ],
+  "httpEvents": [
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "scheduler.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "scheduler.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "scheduler.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "scheduler.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "scheduler.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "scheduler.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "scheduler.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "scheduler.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    }
+  ],
+  "events": [],
+  "results": [],
+  "jobId": "U5LcLRBenc27QfJAmAOLAB",
+  "instrumented": true,
+  "cancelError": "Could not connect to https://scheduler.distributed.computer/job-submit/ within 60s",
+  "passed": true,
+  "error": "Timed out after 240 seconds",
+  "finishedAt": "2026-11-05T17:17:26.623Z"
+}

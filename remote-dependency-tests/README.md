@@ -11,3 +11,7 @@ From this directory, run `node run.js local training` for the local check. In yo
 Initialization time includes module loading/backend setup, not necessarily a download; these tests do not measure cache reuse. Public workers are not hospital clients, and no real data is used.
 
 November 5: all three remote tests passed. The user-reported balance fell from 4,996 to 4,990 DCC across them. Times are individual observations, not a scaling benchmark.
+
+4. [Cache observation](04-cache-observation/README.md): instrumented local-worker module fetches and reuse; no DCC used.
+
+5. [Transfer and restrictions](05-transfer-restrictions/README.md): public sandbox markers, local HTTP-body measurement, and dependency-access denial.

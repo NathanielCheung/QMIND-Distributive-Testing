@@ -1,0 +1,197 @@
+{
+  "startedAt": "2026-11-05T17:06:26.648Z",
+  "mode": "local",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "cores": 2,
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "cacheEvents": [
+    {
+      "type": "cache-miss",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "TAmDjdYYoeamXUTqD3KeVe",
+      "at": "2026-11-05T17:06:32.541Z"
+    },
+    {
+      "type": "fetch-completed",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "TAmDjdYYoeamXUTqD3KeVe",
+      "elapsedMs": 648.3834000000006,
+      "files": [
+        {
+          "name": "tfjs-wasm.js",
+          "bytes": 2943254,
+          "sha256": "f8b21807c9452d992ce4c9ff65d7d8bde8007b3293b6ccdf8fdb385e480f803d"
+        }
+      ],
+      "success": true
+    }
+  ],
+  "events": [
+    {
+      "event": "result",
+      "data": {
+        "job": "TAmDjdYYoeamXUTqD3KeVe",
+        "sliceNumber": 2,
+        "result": {
+          "client": 1,
+          "invocationInSandbox": 2,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.04650000000037835,
+          "secondRequireMs": 0.00680000000011205,
+          "initializedMs": 0.6022999999995591,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "TAmDjdYYoeamXUTqD3KeVe",
+        "sliceNumber": 1,
+        "result": {
+          "client": 0,
+          "invocationInSandbox": 1,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 111.25160000000051,
+          "secondRequireMs": 0.02760000000034779,
+          "initializedMs": 114.95210000000043,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "TAmDjdYYoeamXUTqD3KeVe",
+        "sliceNumber": 3,
+        "result": {
+          "client": 2,
+          "invocationInSandbox": 3,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.017700000000331784,
+          "secondRequireMs": 0.00709999999980937,
+          "initializedMs": 0.4194000000006781,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "status",
+      "data": {
+        "runStatus": "finished",
+        "total": 4,
+        "distributed": 4,
+        "computed": 4,
+        "job": "TAmDjdYYoeamXUTqD3KeVe"
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "TAmDjdYYoeamXUTqD3KeVe",
+        "sliceNumber": 4,
+        "result": {
+          "client": 3,
+          "invocationInSandbox": 4,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.06179999999949359,
+          "secondRequireMs": 0.01540000000022701,
+          "initializedMs": 1.0249999999996362,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "client": 0,
+      "invocationInSandbox": 1,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 111.25160000000051,
+      "secondRequireMs": 0.02760000000034779,
+      "initializedMs": 114.95210000000043,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 1,
+      "invocationInSandbox": 2,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.04650000000037835,
+      "secondRequireMs": 0.00680000000011205,
+      "initializedMs": 0.6022999999995591,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 2,
+      "invocationInSandbox": 3,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.017700000000331784,
+      "secondRequireMs": 0.00709999999980937,
+      "initializedMs": 0.4194000000006781,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 3,
+      "invocationInSandbox": 4,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.06179999999949359,
+      "secondRequireMs": 0.01540000000022701,
+      "initializedMs": 1.0249999999996362,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    }
+  ],
+  "jobId": "TAmDjdYYoeamXUTqD3KeVe",
+  "instrumented": true,
+  "wallMs": 7703.9838,
+  "passed": true,
+  "finishedAt": "2026-11-05T17:06:35.425Z"
+}

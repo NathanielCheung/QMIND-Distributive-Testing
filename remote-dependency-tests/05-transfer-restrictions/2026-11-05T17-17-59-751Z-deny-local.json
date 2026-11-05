@@ -1,0 +1,52 @@
+{
+  "startedAt": "2026-11-05T17:17:59.751Z",
+  "mode": "local",
+  "scenario": "deny",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "cores": 1,
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "cacheEvents": [
+    {
+      "type": "cache-miss",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "ygZ3Bbg6TjhPbuLRYZtk2S",
+      "at": "2026-11-05T17:18:25.711Z"
+    }
+  ],
+  "httpEvents": [
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0,
+      "blocked": true
+    }
+  ],
+  "events": [],
+  "results": [],
+  "jobId": "ygZ3Bbg6TjhPbuLRYZtk2S",
+  "instrumented": true,
+  "cancelAcknowledged": true,
+  "restrictionObserved": true,
+  "passed": true,
+  "error": "Cancelled by Payment owner:: Ending blocked dependency test",
+  "finishedAt": "2026-11-05T17:18:29.256Z"
+}

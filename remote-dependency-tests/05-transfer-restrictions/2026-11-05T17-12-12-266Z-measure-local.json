@@ -1,0 +1,218 @@
+{
+  "startedAt": "2026-11-05T17:12:12.266Z",
+  "mode": "local",
+  "scenario": "measure",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "cores": 1,
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "cacheEvents": [
+    {
+      "type": "cache-miss",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "gORpYI0qbAV7LeCnkPOmlT",
+      "at": "2026-11-05T17:12:41.627Z"
+    },
+    {
+      "type": "fetch-completed",
+      "key": "[\"dcp-tfjs-wasm/tfjs-wasm.js\"]",
+      "job": "gORpYI0qbAV7LeCnkPOmlT",
+      "elapsedMs": 589.8382999999994,
+      "files": [
+        {
+          "name": "tfjs-wasm.js",
+          "bytes": 2943254,
+          "sha256": "f8b21807c9452d992ce4c9ff65d7d8bde8007b3293b6ccdf8fdb385e480f803d"
+        }
+      ],
+      "success": true
+    }
+  ],
+  "httpEvents": [
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 0
+    },
+    {
+      "type": "module-http",
+      "protocol": "https",
+      "host": "cdn.packages.distributed.computer",
+      "method": "GET",
+      "bodyBytes": 2943254,
+      "status": 200,
+      "contentLength": "2943254",
+      "contentEncoding": null,
+      "complete": true
+    }
+  ],
+  "events": [
+    {
+      "event": "result",
+      "data": {
+        "job": "gORpYI0qbAV7LeCnkPOmlT",
+        "sliceNumber": 1,
+        "result": {
+          "client": 0,
+          "invocationInSandbox": 1,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 107.20369999999821,
+          "secondRequireMs": 0.026200000000244472,
+          "initializedMs": 110.84169999999722,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "gORpYI0qbAV7LeCnkPOmlT",
+        "sliceNumber": 2,
+        "result": {
+          "client": 1,
+          "invocationInSandbox": 2,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.026200000000244472,
+          "secondRequireMs": 0.005099999998492422,
+          "initializedMs": 0.5521999999982654,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "gORpYI0qbAV7LeCnkPOmlT",
+        "sliceNumber": 3,
+        "result": {
+          "client": 2,
+          "invocationInSandbox": 3,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.01569999999992433,
+          "secondRequireMs": 0.006000000001222361,
+          "initializedMs": 0.4962000000014086,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "event": "status",
+      "data": {
+        "runStatus": "finished",
+        "total": 4,
+        "distributed": 4,
+        "computed": 4,
+        "job": "gORpYI0qbAV7LeCnkPOmlT"
+      }
+    },
+    {
+      "event": "result",
+      "data": {
+        "job": "gORpYI0qbAV7LeCnkPOmlT",
+        "sliceNumber": 4,
+        "result": {
+          "client": 3,
+          "invocationInSandbox": 4,
+          "tfVersion": "4.22.0",
+          "backend": "wasm",
+          "requireMs": 0.046000000002095476,
+          "secondRequireMs": 0.012299999998504063,
+          "initializedMs": 0.5826000000015483,
+          "sameModule": true,
+          "values": [
+            1,
+            4,
+            9
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "client": 0,
+      "invocationInSandbox": 1,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 107.20369999999821,
+      "secondRequireMs": 0.026200000000244472,
+      "initializedMs": 110.84169999999722,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 1,
+      "invocationInSandbox": 2,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.026200000000244472,
+      "secondRequireMs": 0.005099999998492422,
+      "initializedMs": 0.5521999999982654,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 2,
+      "invocationInSandbox": 3,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.01569999999992433,
+      "secondRequireMs": 0.006000000001222361,
+      "initializedMs": 0.4962000000014086,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "client": 3,
+      "invocationInSandbox": 4,
+      "tfVersion": "4.22.0",
+      "backend": "wasm",
+      "requireMs": 0.046000000002095476,
+      "secondRequireMs": 0.012299999998504063,
+      "initializedMs": 0.5826000000015483,
+      "sameModule": true,
+      "values": [
+        1,
+        4,
+        9
+      ]
+    }
+  ],
+  "jobId": "gORpYI0qbAV7LeCnkPOmlT",
+  "instrumented": true,
+  "wallMs": 31792.0077,
+  "passed": true,
+  "finishedAt": "2026-11-05T17:12:45.101Z"
+}
