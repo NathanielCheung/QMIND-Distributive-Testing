@@ -14,7 +14,7 @@ Test results and credit use are recorded in `TESTING.md`.
 
 Portal: https://portal.dcp.cloud/
 
-The shared test account is `cnathaniel168@gmail.com`. The grant was 5,000.000 DCC. Two public jobs have cost 4 DCC each, so the balance on 5 November 2026 was 4,992 DCC.
+The grant on the shared test account was 5,000.000 DCC. Two public jobs have cost 4 DCC each, so the balance is 4,992 DCC.
 
 The portal key is a secret. It starts with `0x` and has 64 hexadecimal characters. Keep it in your own PowerShell window. Do not put it in a file, commit it, or paste it into chat.
 
@@ -74,7 +74,7 @@ Set the job key in this window, then run:
 node capitalize.js remote
 ```
 
-The script prints the ceiling, a shortened payment address, and a job id. Slice results can arrive out of order. The script sorts them before printing the final sentence. Check the portal balance again. The 4 November 2026 run, job `bA4j2urO6fDrzxoikaVJDp`, moved the balance from 5,000.000 DCC to 4,996 DCC.
+The script prints the ceiling, a shortened payment address, and a job id. Slice results can arrive out of order. The script sorts them before printing the final sentence. Check the portal balance again. The first public run, job `bA4j2urO6fDrzxoikaVJDp`, moved the balance from 5,000.000 DCC to 4,996 DCC.
 
 If the script says the key is not a portal key, the variable contains example words or extra text. No job was deployed and no DCC was spent. Set the variable again with only the key between the quotes.
 
@@ -87,12 +87,12 @@ The public test can be completed by any worker on the public network. To see our
 1. On that laptop, install the Windows worker from https://download.distributive.network/windows/latest/dcp-worker/ and approve the administrator prompt.
 2. In the portal, open **Workers**. Use the registration-key link to create a worker registration key.
 3. In the worker settings, open **Register** and paste that registration key.
-4. Open **Economics** and choose the earnings account for `cnathaniel168@gmail.com`.
+4. Open **Economics** and choose the earnings account for the shared test account.
 5. The Compute Groups tab can be left alone. The installer keeps the global group on unless that option is turned off. Save.
 6. In the screensaver settings, choose **Preview**. The preview is a grey full-screen page. That is the worker running.
 7. On the first computer, run `node capitalize.js remote`.
 
-On 5 November 2026 this sequence produced job `KgVfxFgvHQDWg8t3Q6Z8Ic` and the uppercase sentence. The balance fell from 4,996 DCC to 4,992 DCC, and the 4 DCC did not return. A public worker took the slices. Leaving our worker in the global group does not prove that our laptop did the work. A later test has to put the worker and the job in a private compute group.
+This sequence produced job `KgVfxFgvHQDWg8t3Q6Z8Ic` and the uppercase sentence. The balance fell from 4,996 DCC to 4,992 DCC, and the 4 DCC did not return. A public worker took the slices. Leaving our worker in the global group does not prove that our laptop did the work. A later test has to put the worker and the job in a private compute group.
 
 Watch the second laptop while the job runs. If it shows slices being computed, that machine did the work. The slice payment goes to the earnings account selected on the worker. If the second laptop stays idle and the first computer still prints the uppercase sentence, a public worker did the job.
 
@@ -122,8 +122,8 @@ Paid jobs in this project use a numeric price. `job.exec()` with no price uses m
 
 | Run | Command | Cost | Status |
 | --- | --- | --- | --- |
-| Local | `node capitalize.js` | 0 DCC | Passed on 4 November 2026 |
-| Public network | `node capitalize.js remote` | 4 DCC | Passed on 4 November 2026, job `bA4j2urO6fDrzxoikaVJDp` |
-| Second computer, public group | `node capitalize.js remote` while our worker is running | 4 DCC | Job passed on 5 November 2026, `KgVfxFgvHQDWg8t3Q6Z8Ic`. Payment did not return, so a public worker did it |
+| Local | `node capitalize.js` | 0 DCC | Passed |
+| Public network | `node capitalize.js remote` | 4 DCC | Passed, job `bA4j2urO6fDrzxoikaVJDp` |
+| Second computer, public group | `node capitalize.js remote` while our worker is running | 4 DCC | Job `KgVfxFgvHQDWg8t3Q6Z8Ic` passed. Payment did not return, so a public worker did it |
 | Second computer, private group | Same command, job limited to our group | 4 DCC | Not run yet |
 | Input-set data | A small array sent inside the job | 4 DCC | Not run yet |
