@@ -1,0 +1,31 @@
+{
+  "localFile": "results/2026-11-05T15-38-18-080Z-local-round.json",
+  "remoteFile": "results/2026-11-05T15-42-31-800Z-remote-round.json",
+  "localWallMs": 95058.4275,
+  "remoteWallMs": 53893.061499999996,
+  "localAggregate": [
+    0.8237028770597838,
+    0.7915492703152456,
+    0.017059485061015723
+  ],
+  "remoteAggregate": [
+    0.8237028770597838,
+    0.7915492703152456,
+    0.017059485061015723
+  ],
+  "absoluteWeightDifferences": [
+    0,
+    0,
+    0
+  ],
+  "aggregatesMatchWithin1eMinus9": true,
+  "localMeanLoss": [
+    0.6931471805599312,
+    0.4753572764541045
+  ],
+  "remoteMeanLoss": [
+    0.6931471805599312,
+    0.4753572764541045
+  ],
+  "note": "Single observations include scheduling and do not establish speed or scaling. Verify both runs used the same code revision and inputs."
+}

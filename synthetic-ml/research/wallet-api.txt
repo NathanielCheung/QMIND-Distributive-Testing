@@ -1,0 +1,21 @@
+dcp/wallet
+
+Functions
+Functions
+get
+load
+Classes
+Classes
+Keystore
+The Wallet API is a library for working with DCP and DCP Bank Accounts. The two main functions provide jobs access to a
+Keystore
+to allow deployment on DCP:
+get
+gets a keystore from the wallet
+load
+gets a keystore from the disk
+A DCP bank account stores credits. Doing work on the network earns credits, and deploying work consumes them. A keystore is a special file that grants access to credits with public key/private key cryptography. One can create several keystores to separate or manage funds.
+A keystore has a public address. As DCP Workers earn credits, they deposit them into the keystore associated with the payment address specified in the Worker’s configuration. Set this to the public address of a keystore to change where earned credits go.
+For how to use keystores, visit the
+Getting Setup
+guide.

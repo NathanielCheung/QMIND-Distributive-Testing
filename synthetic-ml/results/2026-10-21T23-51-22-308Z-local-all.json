@@ -1,0 +1,2552 @@
+{
+  "startedAt": "2026-10-21T23:51:22.308Z",
+  "mode": "local",
+  "selection": "all",
+  "node": "v26.12.0",
+  "sdk": "5.8.8",
+  "platform": "win32 10.0.26300",
+  "logicalCpus": 16,
+  "scheduler": "https://scheduler.distributed.computer",
+  "paymentOfferDCCPerSlice": 0,
+  "jobs": [
+    {
+      "name": "smoke",
+      "jobId": "u1b0AV8FpaV89auakazQoJ",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 5387.822,
+          "data": {
+            "job": "u1b0AV8FpaV89auakazQoJ",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "value": 1
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5480.852800000001,
+          "data": {
+            "job": "u1b0AV8FpaV89auakazQoJ",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "value": 2809
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5562.106400000001,
+          "data": {
+            "job": "u1b0AV8FpaV89auakazQoJ",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "value": 4
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 6332.9472000000005,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "u1b0AV8FpaV89auakazQoJ"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 6334.4151,
+          "data": {
+            "job": "u1b0AV8FpaV89auakazQoJ",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "value": 144
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "value": 1
+        },
+        {
+          "client": 1,
+          "value": 2809
+        },
+        {
+          "client": 2,
+          "value": 4
+        },
+        {
+          "client": 3,
+          "value": 144
+        }
+      ],
+      "startedAt": "2026-10-21T23:51:23.523Z",
+      "acceptedMs": 2295.0434,
+      "localWorkerId": "localExec_9cda6b7226ad",
+      "ok": true,
+      "wallMs": 6344.464099999999,
+      "submitterPeakRssBytes": 213360640,
+      "submitterMaxRssBytes": 229634048
+    },
+    {
+      "name": "scale-rows256-slots1-0",
+      "jobId": "uymlAQn7HBjfDw8PQBXH8M",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 4929.604700000001,
+          "data": {
+            "job": "uymlAQn7HBjfDw8PQBXH8M",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 256,
+              "weights": [
+                1.4983988304883795,
+                1.6285719171106925,
+                0.15877930923670175
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3622034529952447,
+              "elapsedMs": 7.024899999998524,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5008.854,
+          "data": {
+            "job": "uymlAQn7HBjfDw8PQBXH8M",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 256,
+              "weights": [
+                1.5850273726579935,
+                1.6313818466901295,
+                0.07880915978525034
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.34519397131845536,
+              "elapsedMs": 4.872099999998682,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5237.429999999999,
+          "data": {
+            "job": "uymlAQn7HBjfDw8PQBXH8M",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 256,
+              "weights": [
+                1.5619637498361174,
+                1.7146279639902942,
+                -0.06665594796480019
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3332161355400903,
+              "elapsedMs": 4.048099999999977,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 6707.5549,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "uymlAQn7HBjfDw8PQBXH8M"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 6708.7684,
+          "data": {
+            "job": "uymlAQn7HBjfDw8PQBXH8M",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 256,
+              "weights": [
+                1.6953468011290012,
+                1.6503179574598255,
+                -0.007819371566586016
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3164240528943022,
+              "elapsedMs": 5.0887000000002445,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 256,
+          "weights": [
+            1.4983988304883795,
+            1.6285719171106925,
+            0.15877930923670175
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3622034529952447,
+          "elapsedMs": 7.024899999998524,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 256,
+          "weights": [
+            1.5850273726579935,
+            1.6313818466901295,
+            0.07880915978525034
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.34519397131845536,
+          "elapsedMs": 4.872099999998682,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 256,
+          "weights": [
+            1.5619637498361174,
+            1.7146279639902942,
+            -0.06665594796480019
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3332161355400903,
+          "elapsedMs": 4.048099999999977,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 256,
+          "weights": [
+            1.6953468011290012,
+            1.6503179574598255,
+            -0.007819371566586016
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3164240528943022,
+          "elapsedMs": 5.0887000000002445,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:51:29.889Z",
+      "acceptedMs": 2522.7416000000003,
+      "localWorkerId": "localExec_fd22dbf487f4",
+      "ok": true,
+      "wallMs": 6709.408200000001,
+      "submitterPeakRssBytes": 220151808,
+      "submitterMaxRssBytes": 271183872
+    },
+    {
+      "name": "scale-rows256-slots2-0",
+      "jobId": "LMm3KBtguEFYwMGnSwNDHX",
+      "inputCount": 2,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 18817.276800000003,
+          "data": {
+            "job": "LMm3KBtguEFYwMGnSwNDHX",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 256,
+              "weights": [
+                1.4983988304883795,
+                1.6285719171106925,
+                0.15877930923670175
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3622034529952447,
+              "elapsedMs": 15.66649999999936,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 19757.494500000004,
+          "data": {
+            "runStatus": "finished",
+            "total": 2,
+            "distributed": 2,
+            "computed": 2,
+            "job": "LMm3KBtguEFYwMGnSwNDHX"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 19758.753,
+          "data": {
+            "job": "LMm3KBtguEFYwMGnSwNDHX",
+            "sliceNumber": 2,
+            "result": {
+              "client": 2,
+              "rows": 256,
+              "weights": [
+                1.5619637498361174,
+                1.7146279639902942,
+                -0.06665594796480019
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3332161355400903,
+              "elapsedMs": 3.426500000001397,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 256,
+          "weights": [
+            1.4983988304883795,
+            1.6285719171106925,
+            0.15877930923670175
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3622034529952447,
+          "elapsedMs": 15.66649999999936,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 256,
+          "weights": [
+            1.5619637498361174,
+            1.7146279639902942,
+            -0.06665594796480019
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3332161355400903,
+          "elapsedMs": 3.426500000001397,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:51:36.609Z",
+      "acceptedMs": 2991.3292,
+      "localWorkerId": "localExec_6074ae27fd4f",
+      "ok": true,
+      "wallMs": 19767.232099999997,
+      "submitterPeakRssBytes": 239484928,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows256-slots2-1",
+      "jobId": "97M2nGFIi6TOQRQgMXP7XN",
+      "inputCount": 2,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 6938.636800000002,
+          "data": {
+            "job": "97M2nGFIi6TOQRQgMXP7XN",
+            "sliceNumber": 1,
+            "result": {
+              "client": 1,
+              "rows": 256,
+              "weights": [
+                1.5850273726579935,
+                1.6313818466901295,
+                0.07880915978525034
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.34519397131845536,
+              "elapsedMs": 5.0112000000008265,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 7801.762199999999,
+          "data": {
+            "runStatus": "finished",
+            "total": 2,
+            "distributed": 2,
+            "computed": 2,
+            "job": "97M2nGFIi6TOQRQgMXP7XN"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 7802.981400000002,
+          "data": {
+            "job": "97M2nGFIi6TOQRQgMXP7XN",
+            "sliceNumber": 2,
+            "result": {
+              "client": 3,
+              "rows": 256,
+              "weights": [
+                1.6953468011290012,
+                1.6503179574598255,
+                -0.007819371566586016
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3164240528943022,
+              "elapsedMs": 3.3119000000006054,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 1,
+          "rows": 256,
+          "weights": [
+            1.5850273726579935,
+            1.6313818466901295,
+            0.07880915978525034
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.34519397131845536,
+          "elapsedMs": 5.0112000000008265,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 256,
+          "weights": [
+            1.6953468011290012,
+            1.6503179574598255,
+            -0.007819371566586016
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3164240528943022,
+          "elapsedMs": 3.3119000000006054,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:51:36.614Z",
+      "acceptedMs": 5193.897200000001,
+      "localWorkerId": "localExec_88b750e5126a",
+      "ok": true,
+      "wallMs": 7810.058900000002,
+      "submitterPeakRssBytes": 237469696,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows256-slots4-0",
+      "jobId": "suxewRXPnkHrtsbXEbHskn",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "status",
+          "elapsedMs": 14925.818800000001,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "suxewRXPnkHrtsbXEbHskn"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 14927.212200000002,
+          "data": {
+            "job": "suxewRXPnkHrtsbXEbHskn",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 256,
+              "weights": [
+                1.4983988304883795,
+                1.6285719171106925,
+                0.15877930923670175
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3622034529952447,
+              "elapsedMs": 5.298599999994622,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 256,
+          "weights": [
+            1.4983988304883795,
+            1.6285719171106925,
+            0.15877930923670175
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3622034529952447,
+          "elapsedMs": 5.298599999994622,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:51:56.388Z",
+      "acceptedMs": 2432.9133,
+      "localWorkerId": "localExec_991dc4bdbaa6",
+      "ok": true,
+      "wallMs": 14928.078500000003,
+      "submitterPeakRssBytes": 221159424,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows256-slots4-1",
+      "jobId": "ErW7DkSZTBraVrz7ujMfXW",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "status",
+          "elapsedMs": 27212.626599999996,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "ErW7DkSZTBraVrz7ujMfXW"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 27215.432499999995,
+          "data": {
+            "job": "ErW7DkSZTBraVrz7ujMfXW",
+            "sliceNumber": 1,
+            "result": {
+              "client": 1,
+              "rows": 256,
+              "weights": [
+                1.5850273726579935,
+                1.6313818466901295,
+                0.07880915978525034
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.34519397131845536,
+              "elapsedMs": 5.025500000003376,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 1,
+          "rows": 256,
+          "weights": [
+            1.5850273726579935,
+            1.6313818466901295,
+            0.07880915978525034
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.34519397131845536,
+          "elapsedMs": 5.025500000003376,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:51:56.392Z",
+      "acceptedMs": 5249.040099999998,
+      "localWorkerId": "localExec_a95176080469",
+      "ok": true,
+      "wallMs": 27241.780399999996,
+      "submitterPeakRssBytes": 221159424,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows256-slots4-2",
+      "jobId": "Xsi3hrVd2ifzyCbZVypJf6",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "status",
+          "elapsedMs": 17315.159900000006,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "Xsi3hrVd2ifzyCbZVypJf6"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 17316.751300000004,
+          "data": {
+            "job": "Xsi3hrVd2ifzyCbZVypJf6",
+            "sliceNumber": 1,
+            "result": {
+              "client": 2,
+              "rows": 256,
+              "weights": [
+                1.5619637498361174,
+                1.7146279639902942,
+                -0.06665594796480019
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3332161355400903,
+              "elapsedMs": 7.317900000001828,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 2,
+          "rows": 256,
+          "weights": [
+            1.5619637498361174,
+            1.7146279639902942,
+            -0.06665594796480019
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3332161355400903,
+          "elapsedMs": 7.317900000001828,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:51:56.394Z",
+      "acceptedMs": 4698.149300000005,
+      "localWorkerId": "localExec_79a79f9b4b23",
+      "ok": true,
+      "wallMs": 17324.2693,
+      "submitterPeakRssBytes": 221159424,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows256-slots4-3",
+      "jobId": "5LNFmdmiMAVqHQbasBkubz",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "status",
+          "elapsedMs": 22813.769400000005,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "5LNFmdmiMAVqHQbasBkubz"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 22815.168400000002,
+          "data": {
+            "job": "5LNFmdmiMAVqHQbasBkubz",
+            "sliceNumber": 1,
+            "result": {
+              "client": 3,
+              "rows": 256,
+              "weights": [
+                1.6953468011290012,
+                1.6503179574598255,
+                -0.007819371566586016
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3164240528943022,
+              "elapsedMs": 5.595399999998335,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 3,
+          "rows": 256,
+          "weights": [
+            1.6953468011290012,
+            1.6503179574598255,
+            -0.007819371566586016
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3164240528943022,
+          "elapsedMs": 5.595399999998335,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:51:56.396Z",
+      "acceptedMs": 4349.0599,
+      "localWorkerId": "localExec_012119dc3826",
+      "ok": true,
+      "wallMs": 22824.1054,
+      "submitterPeakRssBytes": 221159424,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows4096-slots1-0",
+      "jobId": "39wrrree2IPvGjUNqSoNsz",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 5610.988499999992,
+          "data": {
+            "job": "39wrrree2IPvGjUNqSoNsz",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 4096,
+              "weights": [
+                1.6294438851175248,
+                1.5939862031853806,
+                0.003118395256610259
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.3468197057381898,
+              "elapsedMs": 44.54300000000512,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5698.648300000001,
+          "data": {
+            "job": "39wrrree2IPvGjUNqSoNsz",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 4096,
+              "weights": [
+                1.6052930659880058,
+                1.6375386624623853,
+                -0.015808613095464816
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34174620400637684,
+              "elapsedMs": 31.980200000005425,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5889.871100000004,
+          "data": {
+            "job": "39wrrree2IPvGjUNqSoNsz",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 4096,
+              "weights": [
+                1.6451192962793062,
+                1.5834527654148332,
+                0.020254093555505993
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34560789307302414,
+              "elapsedMs": 30.6478000000061,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 7036.508199999997,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "39wrrree2IPvGjUNqSoNsz"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 7037.811700000006,
+          "data": {
+            "job": "39wrrree2IPvGjUNqSoNsz",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 4096,
+              "weights": [
+                1.644987103093555,
+                1.5959528191975019,
+                -0.02479211611644758
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34243569406114244,
+              "elapsedMs": 30.537899999995716,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 4096,
+          "weights": [
+            1.6294438851175248,
+            1.5939862031853806,
+            0.003118395256610259
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.3468197057381898,
+          "elapsedMs": 44.54300000000512,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 4096,
+          "weights": [
+            1.6052930659880058,
+            1.6375386624623853,
+            -0.015808613095464816
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34174620400637684,
+          "elapsedMs": 31.980200000005425,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 4096,
+          "weights": [
+            1.6451192962793062,
+            1.5834527654148332,
+            0.020254093555505993
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34560789307302414,
+          "elapsedMs": 30.6478000000061,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 4096,
+          "weights": [
+            1.644987103093555,
+            1.5959528191975019,
+            -0.02479211611644758
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34243569406114244,
+          "elapsedMs": 30.537899999995716,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:52:23.661Z",
+      "acceptedMs": 2267.186600000001,
+      "localWorkerId": "localExec_d786ec234c1a",
+      "ok": true,
+      "wallMs": 7038.463999999993,
+      "submitterPeakRssBytes": 219697152,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows4096-slots2-0",
+      "jobId": "KLgXnNf2T4vqXPBPcEhynz",
+      "inputCount": 2,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 11584.152000000002,
+          "data": {
+            "job": "KLgXnNf2T4vqXPBPcEhynz",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 4096,
+              "weights": [
+                1.6294438851175248,
+                1.5939862031853806,
+                0.003118395256610259
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.3468197057381898,
+              "elapsedMs": 47.23189999999886,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 12689.266900000002,
+          "data": {
+            "runStatus": "finished",
+            "total": 2,
+            "distributed": 2,
+            "computed": 2,
+            "job": "KLgXnNf2T4vqXPBPcEhynz"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 12690.516600000003,
+          "data": {
+            "job": "KLgXnNf2T4vqXPBPcEhynz",
+            "sliceNumber": 2,
+            "result": {
+              "client": 2,
+              "rows": 4096,
+              "weights": [
+                1.6451192962793062,
+                1.5834527654148332,
+                0.020254093555505993
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34560789307302414,
+              "elapsedMs": 32.370999999999185,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 4096,
+          "weights": [
+            1.6294438851175248,
+            1.5939862031853806,
+            0.003118395256610259
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.3468197057381898,
+          "elapsedMs": 47.23189999999886,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 4096,
+          "weights": [
+            1.6451192962793062,
+            1.5834527654148332,
+            0.020254093555505993
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34560789307302414,
+          "elapsedMs": 32.370999999999185,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:52:30.708Z",
+      "acceptedMs": 2526.0314999999973,
+      "localWorkerId": "localExec_cfe8e45fc3f0",
+      "ok": true,
+      "wallMs": 12700.962,
+      "submitterPeakRssBytes": 230588416,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows4096-slots2-1",
+      "jobId": "C1yjQTS0ngwkohwY9a6A30",
+      "inputCount": 2,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 11847.928,
+          "data": {
+            "job": "C1yjQTS0ngwkohwY9a6A30",
+            "sliceNumber": 1,
+            "result": {
+              "client": 1,
+              "rows": 4096,
+              "weights": [
+                1.6052930659880058,
+                1.6375386624623853,
+                -0.015808613095464816
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34174620400637684,
+              "elapsedMs": 49.734399999986636,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 19167.58039999999,
+          "data": {
+            "runStatus": "finished",
+            "total": 2,
+            "distributed": 2,
+            "computed": 2,
+            "job": "C1yjQTS0ngwkohwY9a6A30"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 19169.089299999992,
+          "data": {
+            "job": "C1yjQTS0ngwkohwY9a6A30",
+            "sliceNumber": 2,
+            "result": {
+              "client": 3,
+              "rows": 4096,
+              "weights": [
+                1.644987103093555,
+                1.5959528191975019,
+                -0.02479211611644758
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34243569406114244,
+              "elapsedMs": 47.19580000000133,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 1,
+          "rows": 4096,
+          "weights": [
+            1.6052930659880058,
+            1.6375386624623853,
+            -0.015808613095464816
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34174620400637684,
+          "elapsedMs": 49.734399999986636,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 4096,
+          "weights": [
+            1.644987103093555,
+            1.5959528191975019,
+            -0.02479211611644758
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34243569406114244,
+          "elapsedMs": 47.19580000000133,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:52:30.713Z",
+      "acceptedMs": 4311.486999999994,
+      "localWorkerId": "localExec_e2b66c9d3c6b",
+      "ok": true,
+      "wallMs": 19177.085999999996,
+      "submitterPeakRssBytes": 230924288,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows4096-slots4-0",
+      "jobId": "Q3cBgjI2kXupZBByItIIBH",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "status",
+          "elapsedMs": 24617.5107,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "Q3cBgjI2kXupZBByItIIBH"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 24619.021800000002,
+          "data": {
+            "job": "Q3cBgjI2kXupZBByItIIBH",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 4096,
+              "weights": [
+                1.6294438851175248,
+                1.5939862031853806,
+                0.003118395256610259
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.3468197057381898,
+              "elapsedMs": 40.780100000003586,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 4096,
+          "weights": [
+            1.6294438851175248,
+            1.5939862031853806,
+            0.003118395256610259
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.3468197057381898,
+          "elapsedMs": 40.780100000003586,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:52:49.892Z",
+      "acceptedMs": 2452.3304999999964,
+      "localWorkerId": "localExec_5ba1b712cf92",
+      "ok": true,
+      "wallMs": 24627.545,
+      "submitterPeakRssBytes": 248397824,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows4096-slots4-1",
+      "jobId": "wN5az71fSykYKZeO1NWUHz",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "status",
+          "elapsedMs": 8441.257799999992,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "wN5az71fSykYKZeO1NWUHz"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 8442.589299999992,
+          "data": {
+            "job": "wN5az71fSykYKZeO1NWUHz",
+            "sliceNumber": 1,
+            "result": {
+              "client": 1,
+              "rows": 4096,
+              "weights": [
+                1.6052930659880058,
+                1.6375386624623853,
+                -0.015808613095464816
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34174620400637684,
+              "elapsedMs": 45.99670000000333,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 1,
+          "rows": 4096,
+          "weights": [
+            1.6052930659880058,
+            1.6375386624623853,
+            -0.015808613095464816
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34174620400637684,
+          "elapsedMs": 45.99670000000333,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:52:49.897Z",
+      "acceptedMs": 4085.2739999999903,
+      "localWorkerId": "localExec_2bb8a7139a24",
+      "ok": true,
+      "wallMs": 8443.411399999997,
+      "submitterPeakRssBytes": 237117440,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows4096-slots4-2",
+      "jobId": "wx7Mg1SprqExjAiJCFniXG",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 9296.5812,
+          "data": {
+            "job": "wx7Mg1SprqExjAiJCFniXG",
+            "sliceNumber": 1,
+            "result": {
+              "client": 2,
+              "rows": 4096,
+              "weights": [
+                1.6451192962793062,
+                1.5834527654148332,
+                0.020254093555505993
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34560789307302414,
+              "elapsedMs": 37.052999999999884,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 9377.099100000007,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "wx7Mg1SprqExjAiJCFniXG"
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 2,
+          "rows": 4096,
+          "weights": [
+            1.6451192962793062,
+            1.5834527654148332,
+            0.020254093555505993
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34560789307302414,
+          "elapsedMs": 37.052999999999884,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:52:49.902Z",
+      "acceptedMs": 5203.1587,
+      "localWorkerId": "localExec_b0fa53e83258",
+      "ok": true,
+      "wallMs": 9382.1976,
+      "submitterPeakRssBytes": 246358016,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "scale-rows4096-slots4-3",
+      "jobId": "JYwWKtxmRGoUk8RbH4UPpY",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 9267.611300000004,
+          "data": {
+            "job": "JYwWKtxmRGoUk8RbH4UPpY",
+            "sliceNumber": 1,
+            "result": {
+              "client": 3,
+              "rows": 4096,
+              "weights": [
+                1.644987103093555,
+                1.5959528191975019,
+                -0.02479211611644758
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599639,
+              "lossAfter": 0.34243569406114244,
+              "elapsedMs": 48.17399999999907,
+              "dataBytes": 98304,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 9343.063200000004,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "JYwWKtxmRGoUk8RbH4UPpY"
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 3,
+          "rows": 4096,
+          "weights": [
+            1.644987103093555,
+            1.5959528191975019,
+            -0.02479211611644758
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599639,
+          "lossAfter": 0.34243569406114244,
+          "elapsedMs": 48.17399999999907,
+          "dataBytes": 98304,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:52:49.907Z",
+      "acceptedMs": 4904.4562000000005,
+      "localWorkerId": "localExec_73bcc65a0e27",
+      "ok": true,
+      "wallMs": 9346.802599999995,
+      "submitterPeakRssBytes": 246120448,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "federated-round-1",
+      "jobId": "fB1XxwK3PRnr6OHCeyFQvk",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 10748.597799999989,
+          "data": {
+            "job": "fB1XxwK3PRnr6OHCeyFQvk",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 1024,
+              "weights": [
+                0.835039183232116,
+                0.7608603809470015,
+                0.0033335519655772
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599312,
+              "lossAfter": 0.4807071044866377,
+              "elapsedMs": 8.91830000000482,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 10749.526799999992,
+          "data": {
+            "job": "fB1XxwK3PRnr6OHCeyFQvk",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 1024,
+              "weights": [
+                0.7958158605369252,
+                0.8306193407840158,
+                0.07667181130030233
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599312,
+              "lossAfter": 0.47158030905808945,
+              "elapsedMs": 5.3399999999965075,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 10985.8508,
+          "data": {
+            "job": "fB1XxwK3PRnr6OHCeyFQvk",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 1024,
+              "weights": [
+                0.8182118372634475,
+                0.7912234753250356,
+                -0.017952717305354342
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599312,
+              "lossAfter": 0.4773446688903615,
+              "elapsedMs": 5.290599999992992,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 12041.1835,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "fB1XxwK3PRnr6OHCeyFQvk"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 12042.63459999999,
+          "data": {
+            "job": "fB1XxwK3PRnr6OHCeyFQvk",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 1024,
+              "weights": [
+                0.8457446272066464,
+                0.7834938842049297,
+                0.006185294283537697
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599312,
+              "lossAfter": 0.47179702338132934,
+              "elapsedMs": 5.755400000009104,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 1024,
+          "weights": [
+            0.835039183232116,
+            0.7608603809470015,
+            0.0033335519655772
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599312,
+          "lossAfter": 0.4807071044866377,
+          "elapsedMs": 8.91830000000482,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 1024,
+          "weights": [
+            0.7958158605369252,
+            0.8306193407840158,
+            0.07667181130030233
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599312,
+          "lossAfter": 0.47158030905808945,
+          "elapsedMs": 5.3399999999965075,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 1024,
+          "weights": [
+            0.8182118372634475,
+            0.7912234753250356,
+            -0.017952717305354342
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599312,
+          "lossAfter": 0.4773446688903615,
+          "elapsedMs": 5.290599999992992,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 1024,
+          "weights": [
+            0.8457446272066464,
+            0.7834938842049297,
+            0.006185294283537697
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599312,
+          "lossAfter": 0.47179702338132934,
+          "elapsedMs": 5.755400000009104,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:53:14.541Z",
+      "acceptedMs": 2939.895299999989,
+      "localWorkerId": "localExec_307b6386348a",
+      "ok": true,
+      "wallMs": 12043.367199999993,
+      "submitterPeakRssBytes": 219357184,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "federated-round-2",
+      "jobId": "JwbRqfhuBhqRiiDytQVqVk",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 6463.395300000004,
+          "data": {
+            "job": "JwbRqfhuBhqRiiDytQVqVk",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 1024,
+              "weights": [
+                1.3785419787691546,
+                1.291133048760838,
+                0.0074763567482802615
+              ],
+              "receivedWeights": [
+                0.8237028770597838,
+                0.7915492703152456,
+                0.017059485061015723
+              ],
+              "lossBefore": 0.4789430548422968,
+              "lossAfter": 0.38644781379424265,
+              "elapsedMs": 9.95789999999397,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 6691.579599999997,
+          "data": {
+            "job": "JwbRqfhuBhqRiiDytQVqVk",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 1024,
+              "weights": [
+                1.3373935075036911,
+                1.3513014535977905,
+                0.07214762003111704
+              ],
+              "receivedWeights": [
+                0.8237028770597838,
+                0.7915492703152456,
+                0.017059485061015723
+              ],
+              "lossBefore": 0.4736155043566573,
+              "lossAfter": 0.377272674507185,
+              "elapsedMs": 5.812200000000303,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 6800.112100000013,
+          "data": {
+            "job": "JwbRqfhuBhqRiiDytQVqVk",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 1024,
+              "weights": [
+                1.3655606482238931,
+                1.3128691474898389,
+                -0.00033569903275834835
+              ],
+              "receivedWeights": [
+                0.8237028770597838,
+                0.7915492703152456,
+                0.017059485061015723
+              ],
+              "lossBefore": 0.4768344776218045,
+              "lossAfter": 0.3829657802242634,
+              "elapsedMs": 7.355500000005122,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 7900.198300000004,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "JwbRqfhuBhqRiiDytQVqVk"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 7901.418099999995,
+          "data": {
+            "job": "JwbRqfhuBhqRiiDytQVqVk",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 1024,
+              "weights": [
+                1.3849373204585096,
+                1.3077886909618404,
+                0.0013854522064290099
+              ],
+              "receivedWeights": [
+                0.8237028770597838,
+                0.7915492703152456,
+                0.017059485061015723
+              ],
+              "lossBefore": 0.47342416794458475,
+              "lossAfter": 0.376901666369998,
+              "elapsedMs": 5.021399999997811,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 1024,
+          "weights": [
+            1.3785419787691546,
+            1.291133048760838,
+            0.0074763567482802615
+          ],
+          "receivedWeights": [
+            0.8237028770597838,
+            0.7915492703152456,
+            0.017059485061015723
+          ],
+          "lossBefore": 0.4789430548422968,
+          "lossAfter": 0.38644781379424265,
+          "elapsedMs": 9.95789999999397,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 1024,
+          "weights": [
+            1.3373935075036911,
+            1.3513014535977905,
+            0.07214762003111704
+          ],
+          "receivedWeights": [
+            0.8237028770597838,
+            0.7915492703152456,
+            0.017059485061015723
+          ],
+          "lossBefore": 0.4736155043566573,
+          "lossAfter": 0.377272674507185,
+          "elapsedMs": 5.812200000000303,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 1024,
+          "weights": [
+            1.3655606482238931,
+            1.3128691474898389,
+            -0.00033569903275834835
+          ],
+          "receivedWeights": [
+            0.8237028770597838,
+            0.7915492703152456,
+            0.017059485061015723
+          ],
+          "lossBefore": 0.4768344776218045,
+          "lossAfter": 0.3829657802242634,
+          "elapsedMs": 7.355500000005122,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 1024,
+          "weights": [
+            1.3849373204585096,
+            1.3077886909618404,
+            0.0013854522064290099
+          ],
+          "receivedWeights": [
+            0.8237028770597838,
+            0.7915492703152456,
+            0.017059485061015723
+          ],
+          "lossBefore": 0.47342416794458475,
+          "lossAfter": 0.376901666369998,
+          "elapsedMs": 5.021399999997811,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:53:26.594Z",
+      "acceptedMs": 2909.1676000000007,
+      "localWorkerId": "localExec_3e92dd657fde",
+      "ok": true,
+      "wallMs": 7909.467699999994,
+      "submitterPeakRssBytes": 218656768,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "federated-round-3",
+      "jobId": "WASbDlJWkL6f1dQZEccoJ0",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 14829.632700000016,
+          "data": {
+            "job": "WASbDlJWkL6f1dQZEccoJ0",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 1024,
+              "weights": [
+                1.78197721932249,
+                1.6859984084928408,
+                0.00922899897838684
+              ],
+              "receivedWeights": [
+                1.366608363738812,
+                1.3157730852025769,
+                0.02016843248826699
+              ],
+              "lossBefore": 0.3856857381944277,
+              "lossAfter": 0.33433194559082424,
+              "elapsedMs": 8.872100000007777,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 14938.95140000002,
+          "data": {
+            "job": "WASbDlJWkL6f1dQZEccoJ0",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 1024,
+              "weights": [
+                1.7395205605753907,
+                1.7406548024763877,
+                0.06929162716712775
+              ],
+              "receivedWeights": [
+                1.366608363738812,
+                1.3157730852025769,
+                0.02016843248826699
+              ],
+              "lossBefore": 0.37847452357311495,
+              "lossAfter": 0.32505033137407796,
+              "elapsedMs": 5.399100000009639,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 15199.795899999997,
+          "data": {
+            "job": "WASbDlJWkL6f1dQZEccoJ0",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 1024,
+              "weights": [
+                1.7711990481258755,
+                1.7029999069026331,
+                0.007538519109249057
+              ],
+              "receivedWeights": [
+                1.366608363738812,
+                1.3157730852025769,
+                0.02016843248826699
+              ],
+              "lossBefore": 0.3827236693009365,
+              "lossAfter": 0.3306911840029828,
+              "elapsedMs": 4.953300000022864,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 20872.56840000002,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "WASbDlJWkL6f1dQZEccoJ0"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 20873.95180000001,
+          "data": {
+            "job": "WASbDlJWkL6f1dQZEccoJ0",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 1024,
+              "weights": [
+                1.784949558234467,
+                1.6988931326921117,
+                -0.0008636223091241498
+              ],
+              "receivedWeights": [
+                1.366608363738812,
+                1.3157730852025769,
+                0.02016843248826699
+              ],
+              "lossBefore": 0.3778302222022847,
+              "lossAfter": 0.32440064667644997,
+              "elapsedMs": 4.393799999990733,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 1024,
+          "weights": [
+            1.78197721932249,
+            1.6859984084928408,
+            0.00922899897838684
+          ],
+          "receivedWeights": [
+            1.366608363738812,
+            1.3157730852025769,
+            0.02016843248826699
+          ],
+          "lossBefore": 0.3856857381944277,
+          "lossAfter": 0.33433194559082424,
+          "elapsedMs": 8.872100000007777,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 1024,
+          "weights": [
+            1.7395205605753907,
+            1.7406548024763877,
+            0.06929162716712775
+          ],
+          "receivedWeights": [
+            1.366608363738812,
+            1.3157730852025769,
+            0.02016843248826699
+          ],
+          "lossBefore": 0.37847452357311495,
+          "lossAfter": 0.32505033137407796,
+          "elapsedMs": 5.399100000009639,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 1024,
+          "weights": [
+            1.7711990481258755,
+            1.7029999069026331,
+            0.007538519109249057
+          ],
+          "receivedWeights": [
+            1.366608363738812,
+            1.3157730852025769,
+            0.02016843248826699
+          ],
+          "lossBefore": 0.3827236693009365,
+          "lossAfter": 0.3306911840029828,
+          "elapsedMs": 4.953300000022864,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 1024,
+          "weights": [
+            1.784949558234467,
+            1.6988931326921117,
+            -0.0008636223091241498
+          ],
+          "receivedWeights": [
+            1.366608363738812,
+            1.3157730852025769,
+            0.02016843248826699
+          ],
+          "lossBefore": 0.3778302222022847,
+          "lossAfter": 0.32440064667644997,
+          "elapsedMs": 4.393799999990733,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:53:34.513Z",
+      "acceptedMs": 2619.5657000000065,
+      "localWorkerId": "localExec_22120aff0501",
+      "ok": true,
+      "wallMs": 20874.86910000001,
+      "submitterPeakRssBytes": 223526912,
+      "submitterMaxRssBytes": 346697728
+    },
+    {
+      "name": "injected-exception",
+      "jobId": "jIV1IZcV9aYiulvRQy6ET4",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "error",
+          "elapsedMs": 12984.627000000008,
+          "data": {
+            "name": "Error",
+            "message": "Injected failure: client 0",
+            "timestamp": "2026-10-21T23:54:08.220Z",
+            "code": "EUNCAUGHT",
+            "stack": "UncaughtExceptionError: Injected failure: client 0\n    at work (eval at initSandbox (map-basic-worktime.js:38:22), <anonymous>:4:36)\n    at Object.processSlice (map-basic-worktime.js:49:39)\n    at runWorkFunction_inner (worktimes.js:172:43)\n    at Function.<anonymous> (worktimes.js:243:39)\n    at Timeout.callback [as _onTimeout] (event-loop-virtualization.js:290:27)\n    at listOnTimeout (node:internal/timers:685:17)\n    at process.processTimers (node:internal/timers:618:7)",
+            "jobName": "QMIND synthetic: injected-exception",
+            "job": "jIV1IZcV9aYiulvRQy6ET4",
+            "sliceNumber": 1
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 13153.2451,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "jIV1IZcV9aYiulvRQy6ET4"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 13154.92749999999,
+          "data": {
+            "job": "jIV1IZcV9aYiulvRQy6ET4",
+            "sliceNumber": 1,
+            "result": {
+              "stack": "UncaughtExceptionError: Injected failure: client 0\n    at work (eval at initSandbox (map-basic-worktime.js:38:22), <anonymous>:4:36)\n    at Object.processSlice (map-basic-worktime.js:49:39)\n    at runWorkFunction_inner (worktimes.js:172:43)\n    at Function.<anonymous> (worktimes.js:243:39)\n    at Timeout.callback [as _onTimeout] (event-loop-virtualization.js:290:27)\n    at listOnTimeout (node:internal/timers:685:17)\n    at process.processTimers (node:internal/timers:618:7)",
+              "errorCode": "EUNCAUGHT",
+              "name": "Error"
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "stack": "UncaughtExceptionError: Injected failure: client 0\n    at work (eval at initSandbox (map-basic-worktime.js:38:22), <anonymous>:4:36)\n    at Object.processSlice (map-basic-worktime.js:49:39)\n    at runWorkFunction_inner (worktimes.js:172:43)\n    at Function.<anonymous> (worktimes.js:243:39)\n    at Timeout.callback [as _onTimeout] (event-loop-virtualization.js:290:27)\n    at listOnTimeout (node:internal/timers:685:17)\n    at process.processTimers (node:internal/timers:618:7)",
+          "errorCode": "EUNCAUGHT",
+          "name": "Error"
+        }
+      ],
+      "startedAt": "2026-10-21T23:53:55.424Z",
+      "acceptedMs": 2060.5311999999976,
+      "localWorkerId": "localExec_8373fce71e90",
+      "ok": true,
+      "wallMs": 13162.7843,
+      "submitterPeakRssBytes": 218062848,
+      "submitterMaxRssBytes": 346697728,
+      "cancelAcknowledged": true
+    },
+    {
+      "name": "tensorflow-wasm-probe",
+      "jobId": "XM4BDZrVFrKC2E8L4x4221",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "status",
+          "elapsedMs": 6319.15340000001,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "XM4BDZrVFrKC2E8L4x4221"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 6321.294300000009,
+          "data": {
+            "job": "XM4BDZrVFrKC2E8L4x4221",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "capabilities": {
+                "process": "undefined",
+                "require": "function",
+                "fetch": "function",
+                "WebAssembly": "object",
+                "SharedArrayBuffer": "function",
+                "worker": "undefined",
+                "tensorflow": {
+                  "backend": "wasm",
+                  "values": [
+                    1,
+                    4,
+                    9
+                  ],
+                  "memory": {
+                    "unreliable": false,
+                    "numTensors": 2,
+                    "numDataBuffers": 2,
+                    "numBytes": 24
+                  }
+                }
+              },
+              "elapsedMs": 220.56380000000354
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "capabilities": {
+            "process": "undefined",
+            "require": "function",
+            "fetch": "function",
+            "WebAssembly": "object",
+            "SharedArrayBuffer": "function",
+            "worker": "undefined",
+            "tensorflow": {
+              "backend": "wasm",
+              "values": [
+                1,
+                4,
+                9
+              ],
+              "memory": {
+                "unreliable": false,
+                "numTensors": 2,
+                "numDataBuffers": 2,
+                "numBytes": 24
+              }
+            }
+          },
+          "elapsedMs": 220.56380000000354
+        }
+      ],
+      "startedAt": "2026-10-21T23:54:08.609Z",
+      "acceptedMs": 2679.9159999999974,
+      "localWorkerId": "localExec_1a947fd6ba85",
+      "ok": true,
+      "wallMs": 6331.064500000008,
+      "submitterPeakRssBytes": 255168512,
+      "submitterMaxRssBytes": 346697728
+    }
+  ],
+  "checks": [
+    {
+      "name": "smoke",
+      "passed": true
+    },
+    {
+      "name": "scaling",
+      "rowsPerClient": 256,
+      "clients": 4,
+      "slots": 1,
+      "wallMs": 6711.063,
+      "workerComputeMs": [
+        7.024899999998524,
+        4.872099999998682,
+        4.048099999999977,
+        5.0887000000002445
+      ],
+      "explicitDataBytesPerSlice": 6144,
+      "note": "Distinct local DCP supervisors, one requested core each; one host."
+    },
+    {
+      "name": "scaling",
+      "rowsPerClient": 256,
+      "clients": 4,
+      "slots": 2,
+      "wallMs": 19768.8845,
+      "workerComputeMs": [
+        15.66649999999936,
+        3.426500000001397,
+        5.0112000000008265,
+        3.3119000000006054
+      ],
+      "explicitDataBytesPerSlice": 6144,
+      "note": "Distinct local DCP supervisors, one requested core each; one host."
+    },
+    {
+      "name": "scaling",
+      "rowsPerClient": 256,
+      "clients": 4,
+      "slots": 4,
+      "wallMs": 27249.112499999996,
+      "workerComputeMs": [
+        5.298599999994622,
+        5.025500000003376,
+        7.317900000001828,
+        5.595399999998335
+      ],
+      "explicitDataBytesPerSlice": 6144,
+      "note": "Distinct local DCP supervisors, one requested core each; one host."
+    },
+    {
+      "name": "scaling",
+      "rowsPerClient": 4096,
+      "clients": 4,
+      "slots": 1,
+      "wallMs": 7042.255900000004,
+      "workerComputeMs": [
+        44.54300000000512,
+        31.980200000005425,
+        30.6478000000061,
+        30.537899999995716
+      ],
+      "explicitDataBytesPerSlice": 98304,
+      "note": "Distinct local DCP supervisors, one requested core each; one host."
+    },
+    {
+      "name": "scaling",
+      "rowsPerClient": 4096,
+      "clients": 4,
+      "slots": 2,
+      "wallMs": 19182.845,
+      "workerComputeMs": [
+        47.23189999999886,
+        32.370999999999185,
+        49.734399999986636,
+        47.19580000000133
+      ],
+      "explicitDataBytesPerSlice": 98304,
+      "note": "Distinct local DCP supervisors, one requested core each; one host."
+    },
+    {
+      "name": "scaling",
+      "rowsPerClient": 4096,
+      "clients": 4,
+      "slots": 4,
+      "wallMs": 24638.776899999997,
+      "workerComputeMs": [
+        40.780100000003586,
+        45.99670000000333,
+        37.052999999999884,
+        48.17399999999907
+      ],
+      "explicitDataBytesPerSlice": 98304,
+      "note": "Distinct local DCP supervisors, one requested core each; one host."
+    },
+    {
+      "name": "scaling",
+      "passed": true
+    },
+    {
+      "name": "federated-round",
+      "round": 1,
+      "broadcast": [
+        0,
+        0,
+        0
+      ],
+      "aggregated": [
+        0.8237028770597838,
+        0.7915492703152456,
+        0.017059485061015723
+      ],
+      "meanLossBefore": 0.6931471805599312,
+      "meanLossAfter": 0.4753572764541045
+    },
+    {
+      "name": "federated-round",
+      "round": 2,
+      "broadcast": [
+        0.8237028770597838,
+        0.7915492703152456,
+        0.017059485061015723
+      ],
+      "aggregated": [
+        1.366608363738812,
+        1.3157730852025769,
+        0.02016843248826699
+      ],
+      "meanLossBefore": 0.47570430119133583,
+      "meanLossAfter": 0.3808969837239223
+    },
+    {
+      "name": "federated-round",
+      "round": 3,
+      "broadcast": [
+        1.366608363738812,
+        1.3157730852025769,
+        0.02016843248826699
+      ],
+      "aggregated": [
+        1.7694115965645556,
+        1.7071365626409933,
+        0.021298880736409877
+      ],
+      "meanLossBefore": 0.38117853831769094,
+      "meanLossAfter": 0.32861852691108373
+    },
+    {
+      "name": "federated",
+      "passed": true
+    },
+    {
+      "name": "failure",
+      "passed": false,
+      "error": {
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "message": "Fault injection must fail"
+      }
+    },
+    {
+      "name": "tensorflow-wasm",
+      "passed": true,
+      "details": {
+        "backend": "wasm",
+        "values": [
+          1,
+          4,
+          9
+        ],
+        "memory": {
+          "unreliable": false,
+          "numTensors": 2,
+          "numDataBuffers": 2,
+          "numBytes": 24
+        }
+      }
+    },
+    {
+      "name": "libraries",
+      "passed": true
+    }
+  ],
+  "schedulerConnected": true,
+  "identity": "ephemeral, local only",
+  "finishedAt": "2026-10-21T23:54:14.960Z"
+}

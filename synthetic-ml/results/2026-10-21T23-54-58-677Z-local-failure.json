@@ -1,0 +1,304 @@
+{
+  "startedAt": "2026-10-21T23:54:58.677Z",
+  "mode": "local",
+  "selection": "failure",
+  "node": "v26.12.0",
+  "sdk": "5.8.8",
+  "platform": "win32 10.0.26300",
+  "logicalCpus": 16,
+  "scheduler": "https://scheduler.distributed.computer",
+  "paymentOfferDCCPerSlice": 0,
+  "jobs": [
+    {
+      "name": "injected-exception",
+      "jobId": "ywSwgS6bRFTJQZG5KcJP5t",
+      "inputCount": 1,
+      "events": [
+        {
+          "event": "error",
+          "elapsedMs": 4455.747,
+          "data": {
+            "name": "Error",
+            "message": "Injected failure: client 0",
+            "timestamp": "2026-10-21T23:55:03.995Z",
+            "code": "EUNCAUGHT",
+            "stack": "UncaughtExceptionError: Injected failure: client 0\n    at work (eval at initSandbox (map-basic-worktime.js:38:22), <anonymous>:4:36)\n    at Object.processSlice (map-basic-worktime.js:49:39)\n    at runWorkFunction_inner (worktimes.js:172:43)\n    at Function.<anonymous> (worktimes.js:243:39)\n    at Timeout.callback [as _onTimeout] (event-loop-virtualization.js:290:27)\n    at listOnTimeout (node:internal/timers:685:17)\n    at process.processTimers (node:internal/timers:618:7)",
+            "jobName": "QMIND synthetic: injected-exception",
+            "job": "ywSwgS6bRFTJQZG5KcJP5t",
+            "sliceNumber": 1
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 4761.4158,
+          "data": {
+            "job": "ywSwgS6bRFTJQZG5KcJP5t",
+            "sliceNumber": 1,
+            "result": {
+              "stack": "UncaughtExceptionError: Injected failure: client 0\n    at work (eval at initSandbox (map-basic-worktime.js:38:22), <anonymous>:4:36)\n    at Object.processSlice (map-basic-worktime.js:49:39)\n    at runWorkFunction_inner (worktimes.js:172:43)\n    at Function.<anonymous> (worktimes.js:243:39)\n    at Timeout.callback [as _onTimeout] (event-loop-virtualization.js:290:27)\n    at listOnTimeout (node:internal/timers:685:17)\n    at process.processTimers (node:internal/timers:618:7)",
+              "errorCode": "EUNCAUGHT",
+              "name": "Error"
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 4858.8593,
+          "data": {
+            "runStatus": "finished",
+            "total": 1,
+            "distributed": 1,
+            "computed": 1,
+            "job": "ywSwgS6bRFTJQZG5KcJP5t"
+          }
+        }
+      ],
+      "results": [
+        {
+          "stack": "UncaughtExceptionError: Injected failure: client 0\n    at work (eval at initSandbox (map-basic-worktime.js:38:22), <anonymous>:4:36)\n    at Object.processSlice (map-basic-worktime.js:49:39)\n    at runWorkFunction_inner (worktimes.js:172:43)\n    at Function.<anonymous> (worktimes.js:243:39)\n    at Timeout.callback [as _onTimeout] (event-loop-virtualization.js:290:27)\n    at listOnTimeout (node:internal/timers:685:17)\n    at process.processTimers (node:internal/timers:618:7)",
+          "errorCode": "EUNCAUGHT",
+          "name": "Error"
+        }
+      ],
+      "startedAt": "2026-10-21T23:54:59.757Z",
+      "acceptedMs": 2810.5721000000003,
+      "localWorkerId": "localExec_e33ddd0afbb6",
+      "cancelAcknowledged": true,
+      "sdkPromiseResolved": true,
+      "error": {
+        "name": "Error",
+        "message": "Missing, duplicate, or invalid client update"
+      },
+      "ok": false,
+      "wallMs": 4909.0276,
+      "submitterPeakRssBytes": 216981504,
+      "submitterMaxRssBytes": 233254912
+    },
+    {
+      "name": "coordinator-retry",
+      "jobId": "SwkoOwt8ww4SPmODkdJzoh",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 5356.3607999999995,
+          "data": {
+            "job": "SwkoOwt8ww4SPmODkdJzoh",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 256,
+              "weights": [
+                1.4983988304883795,
+                1.6285719171106925,
+                0.15877930923670175
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3622034529952447,
+              "elapsedMs": 5.844100000000253,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5598.6686,
+          "data": {
+            "job": "SwkoOwt8ww4SPmODkdJzoh",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 256,
+              "weights": [
+                1.5850273726579935,
+                1.6313818466901295,
+                0.07880915978525034
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.34519397131845536,
+              "elapsedMs": 3.5095000000001164,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5650.945000000001,
+          "data": {
+            "job": "SwkoOwt8ww4SPmODkdJzoh",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 256,
+              "weights": [
+                1.5619637498361174,
+                1.7146279639902942,
+                -0.06665594796480019
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3332161355400903,
+              "elapsedMs": 4.544499999999971,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 6297.206800000001,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "SwkoOwt8ww4SPmODkdJzoh"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 6299.037499999999,
+          "data": {
+            "job": "SwkoOwt8ww4SPmODkdJzoh",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 256,
+              "weights": [
+                1.6953468011290012,
+                1.6503179574598255,
+                -0.007819371566586016
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599466,
+              "lossAfter": 0.3164240528943022,
+              "elapsedMs": 4.519700000000739,
+              "dataBytes": 6144,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 256,
+          "weights": [
+            1.4983988304883795,
+            1.6285719171106925,
+            0.15877930923670175
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3622034529952447,
+          "elapsedMs": 5.844100000000253,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 256,
+          "weights": [
+            1.5850273726579935,
+            1.6313818466901295,
+            0.07880915978525034
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.34519397131845536,
+          "elapsedMs": 3.5095000000001164,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 256,
+          "weights": [
+            1.5619637498361174,
+            1.7146279639902942,
+            -0.06665594796480019
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3332161355400903,
+          "elapsedMs": 4.544499999999971,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 256,
+          "weights": [
+            1.6953468011290012,
+            1.6503179574598255,
+            -0.007819371566586016
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599466,
+          "lossAfter": 0.3164240528943022,
+          "elapsedMs": 4.519700000000739,
+          "dataBytes": 6144,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:55:04.668Z",
+      "acceptedMs": 2414.1691,
+      "localWorkerId": "localExec_9302b62c77e2",
+      "sdkPromiseResolved": true,
+      "ok": true,
+      "wallMs": 6307.304000000001,
+      "submitterPeakRssBytes": 219803648,
+      "submitterMaxRssBytes": 267747328
+    }
+  ],
+  "checks": [
+    {
+      "name": "failure-and-coordinator-retry",
+      "passed": true,
+      "note": "Thrown exception followed by explicit coordinator resubmission; does not prove automatic recovery after physical worker loss."
+    },
+    {
+      "name": "failure",
+      "passed": true
+    }
+  ],
+  "schedulerConnected": true,
+  "identity": "ephemeral, local only",
+  "finishedAt": "2026-10-21T23:55:10.995Z"
+}

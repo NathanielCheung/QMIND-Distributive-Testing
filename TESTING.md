@@ -75,4 +75,15 @@ The pre-ML envelope is still 120 DCC. This test used 4 DCC of it, so 116 DCC rem
 | Two laptops | Our own machines can take slices and return them in order | 1 DCC per slice | Not run. Expected cost 4 DCC for four slices |
 | Input-set data | A small dataset can travel inside the job | 1 DCC per slice, four slices | Not run. Expected cost 4 DCC |
 
-Federated learning waits until the laptop test and the input-set test have been run at this measured price. The first learning round, when it happens, uses a tiny model, a few slices, and a numeric offer. It scales only after that round's cost is known.
+The first learning round uses a tiny model, a few slices, and a numeric offer. The laptop and input-set tests remain useful separate experiments.
+
+## Synthetic federated learning
+
+The branch includes the prior local synthetic ML harness under [synthetic-ml](synthetic-ml/README.md). A matched one-round local/remote experiment with four synthetic clients passed; its result files and comparison are recorded below. The remote offer is capped at 1 DCC per slice, or 4 DCC for this four-slice job. The user reported the Portal balance before and after the remote run; see below. Further performance and worker-failure studies are separate experiments.
+
+
+### One-round comparison, November 5, 2026
+
+- Local: [raw evidence](synthetic-ml/results/2026-11-05T15-38-18-080Z-local-round.json). All four updates were valid and reduced loss; mean loss fell from 0.693147 to 0.475357. FedAvg weights were `[0.8237028771, 0.7915492703, 0.0170594851]`. End-to-end job time was 95.06 s, with scheduler waiting included; this is one observation, not a speed benchmark.
+- Remote: [raw evidence](synthetic-ml/results/2026-11-05T15-42-31-800Z-remote-round.json), job `sPmBC8drAVc28jWkUbBSuj`. All four updates passed the same checks, with identical mean losses and aggregate weights. The job took 53.89 s end to end. It offered 1 DCC per slice, a 4 DCC ceiling. The user reported a Portal balance of 5,000 DCC before and 4,996 DCC after, a 4 DCC decrease.
+- [Comparison](synthetic-ml/results/2026-11-05-local-remote-comparison.json): all three aggregate weight differences were zero. Local and remote used the same synthetic workload and starting weights. Timing includes scheduling and job setup; one run in each mode cannot establish a speedup or scaling behavior. The record does not establish the number or identities of physical remote workers.

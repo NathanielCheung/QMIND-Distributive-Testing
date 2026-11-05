@@ -1,0 +1,703 @@
+{
+  "startedAt": "2026-10-21T23:50:47.769Z",
+  "mode": "local",
+  "selection": "federated",
+  "node": "v26.12.0",
+  "sdk": "5.8.8",
+  "platform": "win32 10.0.26300",
+  "logicalCpus": 16,
+  "scheduler": "https://scheduler.distributed.computer",
+  "paymentOfferDCCPerSlice": 0,
+  "jobs": [
+    {
+      "name": "federated-round-1",
+      "jobId": "YcIbmnJ82bx8BcqO6ZNPFl",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 5096.4651,
+          "data": {
+            "job": "YcIbmnJ82bx8BcqO6ZNPFl",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 1024,
+              "weights": [
+                0.835039183232116,
+                0.7608603809470015,
+                0.0033335519655772
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599312,
+              "lossAfter": 0.4807071044866377,
+              "elapsedMs": 8.124199999999291,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5166.4411,
+          "data": {
+            "job": "YcIbmnJ82bx8BcqO6ZNPFl",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 1024,
+              "weights": [
+                0.7958158605369252,
+                0.8306193407840158,
+                0.07667181130030233
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599312,
+              "lossAfter": 0.47158030905808945,
+              "elapsedMs": 5.668100000000777,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5288.6575,
+          "data": {
+            "job": "YcIbmnJ82bx8BcqO6ZNPFl",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 1024,
+              "weights": [
+                0.8182118372634475,
+                0.7912234753250356,
+                -0.017952717305354342
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599312,
+              "lossAfter": 0.4773446688903615,
+              "elapsedMs": 4.454299999999421,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 6094.4043,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "YcIbmnJ82bx8BcqO6ZNPFl"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 6096.9182,
+          "data": {
+            "job": "YcIbmnJ82bx8BcqO6ZNPFl",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 1024,
+              "weights": [
+                0.8457446272066464,
+                0.7834938842049297,
+                0.006185294283537697
+              ],
+              "receivedWeights": [
+                0,
+                0,
+                0
+              ],
+              "lossBefore": 0.6931471805599312,
+              "lossAfter": 0.47179702338132934,
+              "elapsedMs": 6.6469999999999345,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 1024,
+          "weights": [
+            0.835039183232116,
+            0.7608603809470015,
+            0.0033335519655772
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599312,
+          "lossAfter": 0.4807071044866377,
+          "elapsedMs": 8.124199999999291,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 1024,
+          "weights": [
+            0.7958158605369252,
+            0.8306193407840158,
+            0.07667181130030233
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599312,
+          "lossAfter": 0.47158030905808945,
+          "elapsedMs": 5.668100000000777,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 1024,
+          "weights": [
+            0.8182118372634475,
+            0.7912234753250356,
+            -0.017952717305354342
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599312,
+          "lossAfter": 0.4773446688903615,
+          "elapsedMs": 4.454299999999421,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 1024,
+          "weights": [
+            0.8457446272066464,
+            0.7834938842049297,
+            0.006185294283537697
+          ],
+          "receivedWeights": [
+            0,
+            0,
+            0
+          ],
+          "lossBefore": 0.6931471805599312,
+          "lossAfter": 0.47179702338132934,
+          "elapsedMs": 6.6469999999999345,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:50:49.085Z",
+      "acceptedMs": 2325.3871,
+      "localWorkerId": "localExec_8691ffbec997",
+      "ok": true,
+      "wallMs": 6111.4229000000005,
+      "submitterPeakRssBytes": 215142400,
+      "submitterMaxRssBytes": 231493632
+    },
+    {
+      "name": "federated-round-2",
+      "jobId": "SYEK2WjwC7KdiGn0Ff8gnL",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 3788.3635999999997,
+          "data": {
+            "job": "SYEK2WjwC7KdiGn0Ff8gnL",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 1024,
+              "weights": [
+                1.3785419787691546,
+                1.291133048760838,
+                0.0074763567482802615
+              ],
+              "receivedWeights": [
+                0.8237028770597838,
+                0.7915492703152456,
+                0.017059485061015723
+              ],
+              "lossBefore": 0.4789430548422968,
+              "lossAfter": 0.38644781379424265,
+              "elapsedMs": 7.79910000000018,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 3859.203200000001,
+          "data": {
+            "job": "SYEK2WjwC7KdiGn0Ff8gnL",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 1024,
+              "weights": [
+                1.3373935075036911,
+                1.3513014535977905,
+                0.07214762003111704
+              ],
+              "receivedWeights": [
+                0.8237028770597838,
+                0.7915492703152456,
+                0.017059485061015723
+              ],
+              "lossBefore": 0.4736155043566573,
+              "lossAfter": 0.377272674507185,
+              "elapsedMs": 6.128399999999601,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 4120.120100000001,
+          "data": {
+            "job": "SYEK2WjwC7KdiGn0Ff8gnL",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 1024,
+              "weights": [
+                1.3655606482238931,
+                1.3128691474898389,
+                -0.00033569903275834835
+              ],
+              "receivedWeights": [
+                0.8237028770597838,
+                0.7915492703152456,
+                0.017059485061015723
+              ],
+              "lossBefore": 0.4768344776218045,
+              "lossAfter": 0.3829657802242634,
+              "elapsedMs": 4.5372000000006665,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 4458.5773,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "SYEK2WjwC7KdiGn0Ff8gnL"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 4461.111400000001,
+          "data": {
+            "job": "SYEK2WjwC7KdiGn0Ff8gnL",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 1024,
+              "weights": [
+                1.3849373204585096,
+                1.3077886909618404,
+                0.0013854522064290099
+              ],
+              "receivedWeights": [
+                0.8237028770597838,
+                0.7915492703152456,
+                0.017059485061015723
+              ],
+              "lossBefore": 0.47342416794458475,
+              "lossAfter": 0.376901666369998,
+              "elapsedMs": 5.307399999999689,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 1024,
+          "weights": [
+            1.3785419787691546,
+            1.291133048760838,
+            0.0074763567482802615
+          ],
+          "receivedWeights": [
+            0.8237028770597838,
+            0.7915492703152456,
+            0.017059485061015723
+          ],
+          "lossBefore": 0.4789430548422968,
+          "lossAfter": 0.38644781379424265,
+          "elapsedMs": 7.79910000000018,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 1024,
+          "weights": [
+            1.3373935075036911,
+            1.3513014535977905,
+            0.07214762003111704
+          ],
+          "receivedWeights": [
+            0.8237028770597838,
+            0.7915492703152456,
+            0.017059485061015723
+          ],
+          "lossBefore": 0.4736155043566573,
+          "lossAfter": 0.377272674507185,
+          "elapsedMs": 6.128399999999601,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 1024,
+          "weights": [
+            1.3655606482238931,
+            1.3128691474898389,
+            -0.00033569903275834835
+          ],
+          "receivedWeights": [
+            0.8237028770597838,
+            0.7915492703152456,
+            0.017059485061015723
+          ],
+          "lossBefore": 0.4768344776218045,
+          "lossAfter": 0.3829657802242634,
+          "elapsedMs": 4.5372000000006665,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 1024,
+          "weights": [
+            1.3849373204585096,
+            1.3077886909618404,
+            0.0013854522064290099
+          ],
+          "receivedWeights": [
+            0.8237028770597838,
+            0.7915492703152456,
+            0.017059485061015723
+          ],
+          "lossBefore": 0.47342416794458475,
+          "lossAfter": 0.376901666369998,
+          "elapsedMs": 5.307399999999689,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:50:55.221Z",
+      "acceptedMs": 2214.8005000000003,
+      "localWorkerId": "localExec_f8deb3bd1ded",
+      "ok": true,
+      "wallMs": 4471.8185,
+      "submitterPeakRssBytes": 254300160,
+      "submitterMaxRssBytes": 270675968
+    },
+    {
+      "name": "federated-round-3",
+      "jobId": "casEVeC87tNotCtGSHGoBx",
+      "inputCount": 4,
+      "events": [
+        {
+          "event": "result",
+          "elapsedMs": 4513.186200000002,
+          "data": {
+            "job": "casEVeC87tNotCtGSHGoBx",
+            "sliceNumber": 1,
+            "result": {
+              "client": 0,
+              "rows": 1024,
+              "weights": [
+                1.78197721932249,
+                1.6859984084928408,
+                0.00922899897838684
+              ],
+              "receivedWeights": [
+                1.366608363738812,
+                1.3157730852025769,
+                0.02016843248826699
+              ],
+              "lossBefore": 0.3856857381944277,
+              "lossAfter": 0.33433194559082424,
+              "elapsedMs": 7.678100000000995,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 4571.6085,
+          "data": {
+            "job": "casEVeC87tNotCtGSHGoBx",
+            "sliceNumber": 2,
+            "result": {
+              "client": 1,
+              "rows": 1024,
+              "weights": [
+                1.7395205605753907,
+                1.7406548024763877,
+                0.06929162716712775
+              ],
+              "receivedWeights": [
+                1.366608363738812,
+                1.3157730852025769,
+                0.02016843248826699
+              ],
+              "lossBefore": 0.37847452357311495,
+              "lossAfter": 0.32505033137407796,
+              "elapsedMs": 7.14010000000053,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 4729.593999999999,
+          "data": {
+            "job": "casEVeC87tNotCtGSHGoBx",
+            "sliceNumber": 3,
+            "result": {
+              "client": 2,
+              "rows": 1024,
+              "weights": [
+                1.7711990481258755,
+                1.7029999069026331,
+                0.007538519109249057
+              ],
+              "receivedWeights": [
+                1.366608363738812,
+                1.3157730852025769,
+                0.02016843248826699
+              ],
+              "lossBefore": 0.3827236693009365,
+              "lossAfter": 0.3306911840029828,
+              "elapsedMs": 4.519200000000637,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        },
+        {
+          "event": "status",
+          "elapsedMs": 5617.4787000000015,
+          "data": {
+            "runStatus": "finished",
+            "total": 4,
+            "distributed": 4,
+            "computed": 4,
+            "job": "casEVeC87tNotCtGSHGoBx"
+          }
+        },
+        {
+          "event": "result",
+          "elapsedMs": 5618.9707,
+          "data": {
+            "job": "casEVeC87tNotCtGSHGoBx",
+            "sliceNumber": 4,
+            "result": {
+              "client": 3,
+              "rows": 1024,
+              "weights": [
+                1.784949558234467,
+                1.6988931326921117,
+                -0.0008636223091241498
+              ],
+              "receivedWeights": [
+                1.366608363738812,
+                1.3157730852025769,
+                0.02016843248826699
+              ],
+              "lossBefore": 0.3778302222022847,
+              "lossAfter": 0.32440064667644997,
+              "elapsedMs": 5.595500000003085,
+              "dataBytes": 24576,
+              "heapUsedBytes": null
+            }
+          }
+        }
+      ],
+      "results": [
+        {
+          "client": 0,
+          "rows": 1024,
+          "weights": [
+            1.78197721932249,
+            1.6859984084928408,
+            0.00922899897838684
+          ],
+          "receivedWeights": [
+            1.366608363738812,
+            1.3157730852025769,
+            0.02016843248826699
+          ],
+          "lossBefore": 0.3856857381944277,
+          "lossAfter": 0.33433194559082424,
+          "elapsedMs": 7.678100000000995,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 1,
+          "rows": 1024,
+          "weights": [
+            1.7395205605753907,
+            1.7406548024763877,
+            0.06929162716712775
+          ],
+          "receivedWeights": [
+            1.366608363738812,
+            1.3157730852025769,
+            0.02016843248826699
+          ],
+          "lossBefore": 0.37847452357311495,
+          "lossAfter": 0.32505033137407796,
+          "elapsedMs": 7.14010000000053,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 2,
+          "rows": 1024,
+          "weights": [
+            1.7711990481258755,
+            1.7029999069026331,
+            0.007538519109249057
+          ],
+          "receivedWeights": [
+            1.366608363738812,
+            1.3157730852025769,
+            0.02016843248826699
+          ],
+          "lossBefore": 0.3827236693009365,
+          "lossAfter": 0.3306911840029828,
+          "elapsedMs": 4.519200000000637,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        },
+        {
+          "client": 3,
+          "rows": 1024,
+          "weights": [
+            1.784949558234467,
+            1.6988931326921117,
+            -0.0008636223091241498
+          ],
+          "receivedWeights": [
+            1.366608363738812,
+            1.3157730852025769,
+            0.02016843248826699
+          ],
+          "lossBefore": 0.3778302222022847,
+          "lossAfter": 0.32440064667644997,
+          "elapsedMs": 5.595500000003085,
+          "dataBytes": 24576,
+          "heapUsedBytes": null
+        }
+      ],
+      "startedAt": "2026-10-21T23:50:59.695Z",
+      "acceptedMs": 3031.8572999999997,
+      "localWorkerId": "localExec_1796033ca105",
+      "ok": true,
+      "wallMs": 5619.734200000001,
+      "submitterPeakRssBytes": 233410560,
+      "submitterMaxRssBytes": 317014016
+    }
+  ],
+  "checks": [
+    {
+      "name": "federated-round",
+      "round": 1,
+      "broadcast": [
+        0,
+        0,
+        0
+      ],
+      "aggregated": [
+        0.8237028770597838,
+        0.7915492703152456,
+        0.017059485061015723
+      ],
+      "meanLossBefore": 0.6931471805599312,
+      "meanLossAfter": 0.4753572764541045
+    },
+    {
+      "name": "federated-round",
+      "round": 2,
+      "broadcast": [
+        0.8237028770597838,
+        0.7915492703152456,
+        0.017059485061015723
+      ],
+      "aggregated": [
+        1.366608363738812,
+        1.3157730852025769,
+        0.02016843248826699
+      ],
+      "meanLossBefore": 0.47570430119133583,
+      "meanLossAfter": 0.3808969837239223
+    },
+    {
+      "name": "federated-round",
+      "round": 3,
+      "broadcast": [
+        1.366608363738812,
+        1.3157730852025769,
+        0.02016843248826699
+      ],
+      "aggregated": [
+        1.7694115965645556,
+        1.7071365626409933,
+        0.021298880736409877
+      ],
+      "meanLossBefore": 0.38117853831769094,
+      "meanLossAfter": 0.32861852691108373
+    },
+    {
+      "name": "federated",
+      "passed": true
+    }
+  ],
+  "schedulerConnected": true,
+  "identity": "ephemeral, local only",
+  "finishedAt": "2026-10-21T23:51:05.328Z"
+}
