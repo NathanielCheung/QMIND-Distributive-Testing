@@ -1,0 +1,188 @@
+{
+  "stage": "federated",
+  "mode": "remote",
+  "startedAt": "2026-11-05T16:55:52.525Z",
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "offerDCCPerSlice": 1,
+  "offerCeilingDCC": 4,
+  "inputCount": 4,
+  "events": [
+    {
+      "event": "result",
+      "elapsedMs": 8576.99,
+      "data": {
+        "job": "QibKsEYUi4EHTB0xID8nta",
+        "sliceNumber": 2,
+        "result": {
+          "client": 1,
+          "rows": 1024,
+          "epochs": 12,
+          "backend": "wasm",
+          "initializedMs": 100,
+          "trainingMs": 22,
+          "lossBefore": 0.6931543350219727,
+          "lossAfter": 0.4715801179409027,
+          "weights": [
+            0.7958158254623413,
+            0.8306193351745605,
+            0.07667180895805359
+          ]
+        }
+      }
+    },
+    {
+      "event": "status",
+      "elapsedMs": 8704.712,
+      "data": {
+        "runStatus": "finished",
+        "total": 4,
+        "distributed": 4,
+        "computed": 4,
+        "job": "QibKsEYUi4EHTB0xID8nta"
+      }
+    },
+    {
+      "event": "result",
+      "elapsedMs": 8705.855,
+      "data": {
+        "job": "QibKsEYUi4EHTB0xID8nta",
+        "sliceNumber": 4,
+        "result": {
+          "client": 3,
+          "rows": 1024,
+          "epochs": 12,
+          "backend": "wasm",
+          "initializedMs": 105,
+          "trainingMs": 21,
+          "lossBefore": 0.6931543350219727,
+          "lossAfter": 0.4717969000339508,
+          "weights": [
+            0.8457445502281189,
+            0.7834939360618591,
+            0.0061852941289544106
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "elapsedMs": 8706.3027,
+      "data": {
+        "job": "QibKsEYUi4EHTB0xID8nta",
+        "sliceNumber": 1,
+        "result": {
+          "client": 0,
+          "rows": 1024,
+          "epochs": 12,
+          "backend": "wasm",
+          "initializedMs": 108,
+          "trainingMs": 21,
+          "lossBefore": 0.6931543350219727,
+          "lossAfter": 0.48070675134658813,
+          "weights": [
+            0.8350391983985901,
+            0.7608603835105896,
+            0.0033335480839014053
+          ]
+        }
+      }
+    },
+    {
+      "event": "result",
+      "elapsedMs": 8706.7736,
+      "data": {
+        "job": "QibKsEYUi4EHTB0xID8nta",
+        "sliceNumber": 3,
+        "result": {
+          "client": 2,
+          "rows": 1024,
+          "epochs": 12,
+          "backend": "wasm",
+          "initializedMs": 105,
+          "trainingMs": 22,
+          "lossBefore": 0.6931543350219727,
+          "lossAfter": 0.477344810962677,
+          "weights": [
+            0.8182118535041809,
+            0.7912234663963318,
+            -0.01795271411538124
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "client": 0,
+      "rows": 1024,
+      "epochs": 12,
+      "backend": "wasm",
+      "initializedMs": 108,
+      "trainingMs": 21,
+      "lossBefore": 0.6931543350219727,
+      "lossAfter": 0.48070675134658813,
+      "weights": [
+        0.8350391983985901,
+        0.7608603835105896,
+        0.0033335480839014053
+      ]
+    },
+    {
+      "client": 1,
+      "rows": 1024,
+      "epochs": 12,
+      "backend": "wasm",
+      "initializedMs": 100,
+      "trainingMs": 22,
+      "lossBefore": 0.6931543350219727,
+      "lossAfter": 0.4715801179409027,
+      "weights": [
+        0.7958158254623413,
+        0.8306193351745605,
+        0.07667180895805359
+      ]
+    },
+    {
+      "client": 2,
+      "rows": 1024,
+      "epochs": 12,
+      "backend": "wasm",
+      "initializedMs": 105,
+      "trainingMs": 22,
+      "lossBefore": 0.6931543350219727,
+      "lossAfter": 0.477344810962677,
+      "weights": [
+        0.8182118535041809,
+        0.7912234663963318,
+        -0.01795271411538124
+      ]
+    },
+    {
+      "client": 3,
+      "rows": 1024,
+      "epochs": 12,
+      "backend": "wasm",
+      "initializedMs": 105,
+      "trainingMs": 21,
+      "lossBefore": 0.6931543350219727,
+      "lossAfter": 0.4717969000339508,
+      "weights": [
+        0.8457445502281189,
+        0.7834939360618591,
+        0.0061852941289544106
+      ]
+    }
+  ],
+  "jobId": "QibKsEYUi4EHTB0xID8nta",
+  "acceptedMs": 2719.7936999999997,
+  "aggregate": [
+    0.8237028568983078,
+    0.7915492802858353,
+    0.01705948426388204
+  ],
+  "passed": true,
+  "wallMs": 8713.7048,
+  "finishedAt": "2026-11-05T16:56:01.241Z"
+}

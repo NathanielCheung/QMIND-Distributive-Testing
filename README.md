@@ -3,3 +3,5 @@
 Setup for the team is in [SETUP.md](SETUP.md). Test results and credit use are in [TESTING.md](TESTING.md).
 
 Synthetic federated-learning experiments and reproduction instructions: [synthetic-ml/README.md](synthetic-ml/README.md).
+
+Remote dependency experiments: [remote-dependency-tests](remote-dependency-tests/README.md).

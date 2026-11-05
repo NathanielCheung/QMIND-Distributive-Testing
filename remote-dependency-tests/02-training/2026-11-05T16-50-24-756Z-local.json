@@ -1,0 +1,74 @@
+{
+  "stage": "training",
+  "mode": "local",
+  "startedAt": "2026-11-05T16:50:24.756Z",
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "offerDCCPerSlice": 0,
+  "offerCeilingDCC": 0,
+  "inputCount": 1,
+  "events": [
+    {
+      "event": "status",
+      "elapsedMs": 179253.67810000002,
+      "data": {
+        "runStatus": "finished",
+        "total": 1,
+        "distributed": 1,
+        "computed": 1,
+        "job": "3jIqsVuXiwARuWHYdSf2Bb"
+      }
+    },
+    {
+      "event": "result",
+      "elapsedMs": 179257.179,
+      "data": {
+        "job": "3jIqsVuXiwARuWHYdSf2Bb",
+        "sliceNumber": 1,
+        "result": {
+          "client": 0,
+          "rows": 1024,
+          "epochs": 12,
+          "backend": "wasm",
+          "initializedMs": 223.33930000002147,
+          "trainingMs": 28.988099999987753,
+          "lossBefore": 0.6931543350219727,
+          "lossAfter": 0.48070675134658813,
+          "weights": [
+            0.8350391983985901,
+            0.7608603835105896,
+            0.0033335480839014053
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "client": 0,
+      "rows": 1024,
+      "epochs": 12,
+      "backend": "wasm",
+      "initializedMs": 223.33930000002147,
+      "trainingMs": 28.988099999987753,
+      "lossBefore": 0.6931543350219727,
+      "lossAfter": 0.48070675134658813,
+      "weights": [
+        0.8350391983985901,
+        0.7608603835105896,
+        0.0033335480839014053
+      ]
+    }
+  ],
+  "jobId": "3jIqsVuXiwARuWHYdSf2Bb",
+  "acceptedMs": 4932.442999999999,
+  "aggregate": [
+    0.8350391983985901,
+    0.7608603835105896,
+    0.0033335480839014053
+  ],
+  "passed": true,
+  "wallMs": 179290.56310000003,
+  "finishedAt": "2026-11-05T16:53:24.048Z"
+}

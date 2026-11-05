@@ -1,0 +1,74 @@
+{
+  "stage": "training",
+  "mode": "remote",
+  "startedAt": "2026-11-05T16:55:45.238Z",
+  "dependency": "dcp-tfjs-wasm/tfjs-wasm.js",
+  "sdk": "5.8.8",
+  "node": "v26.12.0",
+  "offerDCCPerSlice": 1,
+  "offerCeilingDCC": 1,
+  "inputCount": 1,
+  "events": [
+    {
+      "event": "result",
+      "elapsedMs": 5043.1569,
+      "data": {
+        "job": "Cbv0oCLlsCYRGNVCtpNw32",
+        "sliceNumber": 1,
+        "result": {
+          "client": 0,
+          "rows": 1024,
+          "epochs": 12,
+          "backend": "wasm",
+          "initializedMs": 100,
+          "trainingMs": 20,
+          "lossBefore": 0.6931543350219727,
+          "lossAfter": 0.48070675134658813,
+          "weights": [
+            0.8350391983985901,
+            0.7608603835105896,
+            0.0033335480839014053
+          ]
+        }
+      }
+    },
+    {
+      "event": "status",
+      "elapsedMs": 5118.1919,
+      "data": {
+        "runStatus": "finished",
+        "total": 1,
+        "distributed": 1,
+        "computed": 1,
+        "job": "Cbv0oCLlsCYRGNVCtpNw32"
+      }
+    }
+  ],
+  "results": [
+    {
+      "client": 0,
+      "rows": 1024,
+      "epochs": 12,
+      "backend": "wasm",
+      "initializedMs": 100,
+      "trainingMs": 20,
+      "lossBefore": 0.6931543350219727,
+      "lossAfter": 0.48070675134658813,
+      "weights": [
+        0.8350391983985901,
+        0.7608603835105896,
+        0.0033335480839014053
+      ]
+    }
+  ],
+  "jobId": "Cbv0oCLlsCYRGNVCtpNw32",
+  "acceptedMs": 3392.4601000000002,
+  "aggregate": [
+    0.8350391983985901,
+    0.7608603835105896,
+    0.0033335480839014053
+  ],
+  "passed": true,
+  "wallMs": 5119.9087,
+  "finishedAt": "2026-11-05T16:55:50.361Z"
+}
